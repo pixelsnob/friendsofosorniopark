@@ -68,12 +68,50 @@ export default () => (
     <article>
       <h2>What We Propose</h2>
       <p>
-        We are asking that the City of La Habra, whose motto is "A Caring Community", to care about everyone in the community --
-        not just the city's own sports teams.
+        We are asking that the City of La Habra, whose motto is "A Caring Community", to care about how their relationship with organized
+        sports teams affects the surrounding community.
       </p>
-      <p>We propose the following:</p>
+      <p>We are circulating a petition that asks for the following:</p>
 
       <PetitionText/>
+
+      <p>
+        If you would like to add your signature to this petition, please email <a href="mailto:petition@friendsofosorniopark.org">petition@friendsofosorniopark.org</a>
+      </p>
+      
+    </article>
+
+    <article>
+      <h2>How You can Help</h2>
+      
+      <p>
+        There are several reviews by residents on <a target="_blank" href="https://www.google.com/maps/place/Osornio+Park/@33.945514,-117.9657207,15z/data=!4m5!3m4!1s0x0:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207">the Osornio Park listing on Google Maps</a> that
+        talk about these issues. There is also <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">a review by the head of the La Habra Pumas soccer team, where he blames
+        residents for dog waste</a>. Please read these reviews and consider leaving a review of your own if you have encountered issues
+        at Osornio Park.
+      </p>
+
+      <p>
+        If you have pictures of Osornio Park that you would like to share, especially those taken before the soccer remodel, please let us know
+        at <a href="mailto:info@friendsofosorniopark.org">info@friendsofosorniopark.org</a>
+      </p>
+      {/* <h2>Other Ways to Help</h2>
+      
+      <p>
+        Osornio Park is a public park, paid for by taxpayer money. Everyone has a right to use this park, and to have a say in how it gets utilized.
+        If we are not happy with what has been happening at this park over the last few years, but continue doing nothing about it,
+        the City will make those decisions for us, and the will probably decide in favor of City sports teams.
+      </p>
+
+      <p>Consider:</p>
+      <ul>
+        <li>
+          Reading the reviews for Osornio Park on <a target="_blank" href="https://www.google.com/maps/place/Osornio+Park/@33.945514,-117.9657207,15z/data=!4m5!3m4!1s0x0:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207">Google Maps</a>, 
+          including the review from the <a target="_blank" href="">Puma's Soccer team president.</a>
+        </li>
+        
+      </ul> */}
+      
 
     </article>
 

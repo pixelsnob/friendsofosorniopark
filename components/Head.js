@@ -19,6 +19,10 @@ export default () => (
         line-height: 1.7;
         padding: 10px;
       }
+      a {
+        color: green;
+        font-weight: bold;
+      }
     `}</style>
   </Fragment>
 )
