@@ -14,20 +14,24 @@ const tableRows = [ ...Array(11).keys() ].map((n, i) => {
           padding: 5px;
         }
         .name {
-          width: 34%;
+          width: 25%;
+        }
+        .signature {
+          width: 25%;
         }
         .date {
           width: 16%;
         }
         .phone {
-          width: 18%
+          width: 16%;
         }
         .email {
-          width: 32%;
+          width: 18%;
         }
       `}</style>
       <tr>
         <td className="name">&nbsp;</td>
+        <td className="signature">&nbsp;</td>
         <td className="date">&nbsp;</td>
         <td className="phone">&nbsp;</td>
         <td className="email">&nbsp;</td>
@@ -45,13 +49,14 @@ const Index = () => (
     <PetitionText/>
     
     <p className="petition-email">If you are interested in signing this petition, please email <a href="mailto:petition@friendsofosorniopark.org">petition@friendsofosorniopark.org</a></p>
-    <p className="print-petition">
-      <button onClick={ref => window.print()}>Print this Page</button>
-    </p>
+
+    <br/>
     <table className="petition-list">
       <tbody>
         <tr>
           <th className="name">Name</th>
+          <th className="signature">Signature</th>
+
           <th className="date">Date</th>
           <th className="phone">Phone</th>
           <th className="email">Email</th>
@@ -60,7 +65,7 @@ const Index = () => (
       </tbody>
     </table>
     <style jsx>{`
-      .petition-email, .print-petition {
+      .petition-email {
         text-align: center;
       }
       table {
@@ -80,16 +85,19 @@ const Index = () => (
         text-align: center;
       }
       .name {
-        width: 32%;
+        width: 25%;
+      }
+      .signature {
+        width: 25%;
       }
       .date {
         width: 16%;
       }
       .phone {
-        width: 20%
+        width: 16%;
       }
       .email {
-        width: 32%;
+        width: 18%;
       }
       
       .petition-list {

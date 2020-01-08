@@ -17,7 +17,7 @@ export default () => (
     </p> */}
     
     <p>
-      We are a group of local residents with a common goal: to help make Osornio Park a more welcoming place for the entire community.
+      We are a group of local residents with a common goal: to encourage the City of La Habra to make Osornio Park a more welcoming place for the entire community.
       We are not affiliated with the City of La Habra.
     </p>
 
@@ -51,15 +51,12 @@ export default () => (
           wasn't in use by sports teams, or anyone at all
         </li>
         <li>
-          Residents watched while Osornio Park became littered with trash after games, and advertising banners
-          were hung on the fences.
-        </li>
-        <li>
           The park gets closed every winter for maintenance, and is sometimes completely locked so that the public can't access it, but sports teams
           continue to hold practices and games
         </li>
         <li>
-          Sports teams parents park where they please, on the basketball courts, and block neighbor's driveways when there are games
+          There are only two parking spots for the entire park, so sports team parents park on the basketball court, and have caused parking
+          issues for the immediate neighbors
         </li>
       </ul>
       
