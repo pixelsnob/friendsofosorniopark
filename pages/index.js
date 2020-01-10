@@ -1,12 +1,12 @@
 
 import { Fragment } from 'react';
 import Head from '../components/Head';
-import Nav from '../components/Nav';
+//import Nav from '../components/Nav';
+import Layout from '../components/Layout';
 import PetitionText from '../components/PetitionText';
 
 export default () => (
-  <Fragment>
-    <Head/>
+  <Layout>
     
     <h1>Friends of Osornio Park</h1>
 
@@ -25,17 +25,17 @@ export default () => (
       <h2>Where is Osornio Park?</h2>
       <p>
         Osornio Park is a public park about a half mile north of Whittier Blvd on Hacienda Road in
-        La Habra, California. The park
-        used to be the playground and sports field for Hacienda School, until the school closed in the 1980s.
+        La Habra, California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank">(Google Maps)</a>. The park
+        used to be the playground and sports field for Hacienda School, until the school closed in the late 1980s<sup><a href="#citation-1">[1]</a></sup>.
       </p>
       <p>
-        In 2001, the City of La Habra dedicated the park to Michael Osornio, who was killed by a drunk driver while on duty in 1994.
+        In 2001, the City of La Habra dedicated the park to Michael Osornio, who was killed by a drunk driver while on duty in 1994<sup><a href="#citation-2">[2]</a></sup>.
         The park remained basically untouched, and looked like the schoolyard that it once was until about 2010. It was enjoyed by residents,
         who would gather in the only open space in this area not already taken up by sports facilities, schools, or businesses.
       </p>
       <p>
-        In 2012, the City of La Habra decided to dedicate the park to the Pumas, a City-affiliated youth soccer team. The Pumas were awarded
-        around $100,000 in state parks funds, which they used to convert Osornio Park into a soccer facility. Trees were removed, as well
+        In 2012, the City of La Habra decided to dedicate the park to the Pumas, a City-affiliated youth soccer team<sup><a href="#citation-3">[3]</a></sup>. The Pumas were awarded
+        around $100,000 in state parks funds<sup><a href="#citation-4">[4]</a></sup>, which they used to convert Osornio Park into a soccer facility. Trees were removed, as well
         as a walking trail and exercise equipment that residents would use. Fences and locking gates were added, as well as "No Animals in Park"
         signs.
       </p>
@@ -92,6 +92,7 @@ export default () => (
         If you have pictures of Osornio Park that you would like to share, especially those taken before the soccer remodel, please let us know
         at <a href="mailto:info@friendsofosorniopark.org">info@friendsofosorniopark.org</a>
       </p>
+
       {/* <h2>Other Ways to Help</h2>
       
       <p>
@@ -111,12 +112,32 @@ export default () => (
       
 
     </article>
-
+    
+    <article>
+      <h2>References</h2>
+        <ol>
+        <li id="citation-1">
+          <a target="_blank" href="https://www.cde.ca.gov/schooldirectory/details?cdscode=19647666020143">Hacienda School</a> -
+          California School Directory - 
+          California Dept. of Education
+        </li>
+        <li id="citation-2">
+          <a target="_blank" href="https://www.latimes.com/archives/la-xpm-2001-may-02-me-58275-story.html">"La Habra to Rename Park After Officer"</a> - Los Angeles Times - May 2, 2001
+        </li>
+        <li id="citation-3">
+          <a target="_blank" href="https://www.flickr.com/photos/calsouthsoccerfoundation/6646253811/in/photostream/">Osornio Park Opening Ceremony 38</a> - Cal South Youth Soccer Foundation
+        </li>
+        <li id="citation-4">
+          <a target="_blank" href="https://www.parksforcalifornia.org/grants">Grants</a> - Parks for All Californians 
+        </li>
+      </ol>
+    </article>
+   
 
     <style jsx>{`
       
     `}</style>
-  </Fragment>
+  </Layout>
 );
 
 //export default Index;

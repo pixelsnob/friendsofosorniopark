@@ -6,9 +6,9 @@
     "dev": "next -p 3001",
     "build": "next build",
     "start": "forever start -c 'next start -p 3001' .",
-    "staging-dev": "next -p 3002",
-    "staging-build": "next build",
-    "staging-start": "forever start -c 'next start -p 3002' ."
+    "dev-staging": "next -p 3002",
+    "build-staging": "next build",
+    "start-staging": "forever start -c 'next start -p 3002' ."
   },
   "dependencies": {
     "cookie-parser": "^1.4.4",
