@@ -20,13 +20,13 @@ const tableRows = [ ...Array(11).keys() ].map((n, i) => {
           width: 25%;
         }
         .date {
-          width: 16%;
+          width: 14%;
         }
         .phone {
           width: 16%;
         }
         .email {
-          width: 18%;
+          width: 20%;
         }
       `}</style>
       <tr>
@@ -91,13 +91,13 @@ const Index = () => (
         width: 25%;
       }
       .date {
-        width: 16%;
+        width: 14%;
       }
       .phone {
         width: 16%;
       }
       .email {
-        width: 18%;
+        width: 20%;
       }
       
       .petition-list {
