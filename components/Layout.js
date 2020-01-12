@@ -9,27 +9,6 @@ export default props => (
     <div className="layout">
       {props.children}
     </div>
-    <style jsx>{`
-      .layout {
-        
-      }
-    `}
-    </style>
-
-    <style jsx global>{`
-      h1 { 
-        text-align: center;
-      }
-      body {
-        font-family: 'Montserrat';
-        font-size: 1.1rem;
-        line-height: 1.7;
-        padding: 10px;
-      }
-      a {
-        color: green;
-        font-weight: bold;
-      }
-    `}</style>
+    
   </Fragment> 
 )
