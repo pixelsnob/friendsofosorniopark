@@ -39,8 +39,8 @@ export default () => (
         <h2>Park Issues</h2>
         <ul>
           <li>
-            <strong>Since 2011, people visiting the park with dogs have been approached by non-City officials threatening that the City of La Habra
-            will cite them.</strong> People like the Puma's president, La Habra Heights firefighters, and Christian School employees, all approached
+            Since 2011, people visiting the park with dogs have been approached by non-City officials threatening that the City of La Habra
+            will cite them. People like the Puma's president, La Habra Heights firefighters, and Christian School employees, all approached
             local residents to tell them what to do in a public park -- even when the park 
             wasn't in use by sports teams, or anyone at all
           </li>
@@ -70,7 +70,7 @@ export default () => (
           <li>That the City of La Habra take the community into account when making changes and improvements to Osornio Park</li>
         </ol>
 
-        <p><a href="">Read the full petition here</a></p>
+        <p><a href="/petition">Read the full petition here</a></p>
         <p>
           If you would like to add your signature to this petition, please email <a href="mailto:petition@friendsofosorniopark.org">petition@friendsofosorniopark.org</a>
         </p>
