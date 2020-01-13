@@ -12,6 +12,8 @@ export default () => (
     <style jsx global>{`
       h1 { 
         text-align: center;
+        margin-top: 0;
+        line-height: 1.3;
       }
       body {
         font-family: 'Montserrat';
