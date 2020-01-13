@@ -3,9 +3,6 @@ import { Fragment } from 'react';
 
 export default () => (
   <Fragment>
-    <style jsx>{`
-      
-    `}</style>
     <ol>
       <li>
         <strong>That the City of La Habra hold sports teams that use Osornio Park more accountable.</strong> This includes:

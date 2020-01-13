@@ -2,6 +2,7 @@
 import { Fragment } from 'react';
 import Head from '../components/Head';
 import PetitionText from '../components/PetitionText';
+import Layout from '../components/Layout';
 
 const tableRows = [ ...Array(11).keys() ].map((n, i) => {
   
@@ -41,9 +42,8 @@ const tableRows = [ ...Array(11).keys() ].map((n, i) => {
 });
 
 const Index = () => (
-  <Fragment>
-    <Head/>
-    <h1>Osornio Park Belongs to the Community!</h1>
+  <Layout>
+    <h2>Osornio Park Belongs to the Community!</h2>
     <p className="intro">We, the undersigned, request the following:</p>
 
     <PetitionText/>
@@ -65,6 +65,9 @@ const Index = () => (
       </tbody>
     </table>
     <style jsx>{`
+      h2 {
+        text-align: center;
+      }
       .petition-email {
         text-align: center;
       }
@@ -112,7 +115,7 @@ const Index = () => (
         }
       }
     `}</style>
-  </Fragment>
+  </Layout>
 );
 
 export default Index;
