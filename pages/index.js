@@ -20,24 +20,36 @@ export default () => (
           La Habra, California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank">(Google Maps)</a>. The park
           used to be the playground and sports field for Hacienda School, until the school closed in 1989<sup><a href="#citation-1">[1]</a></sup>.
         </p>
+        <ImageContainer src={require('../images/IMG_0136.JPG')} alt="Osornio Park in 2010, La Habra, California"/>
+
+
         <p>
-          <ImageContainer src={require('../images/IMG_20191105_151138.jpg')} alt="Memorial for Michael A. Osornio at Osornio Park, La Habra, California"/>
           In 2001, the City of La Habra dedicated the park to Michael Osornio, who was killed by a drunk driver while on duty in 1994<sup><a href="#citation-2">[2]</a></sup>.
           The park remained basically untouched, and looked like the schoolyard that it once was until about 2010. It was enjoyed by residents,
           who would gather in the only open space in this area not already taken up by sports facilities, schools, or businesses.
         </p>
+        <ImageContainer src={require('../images/IMG_20191105_151138.jpg')} alt="Memorial for Michael A. Osornio at Osornio Park, La Habra, California"/>
+
+
         <p>
-          <ImageContainer src={require('../images/IMG_20191012_145954.jpg')} alt="'No Animals in Park' sign at Osornio Park, La Habra, California"/>
           In 2012, the City of La Habra decided to dedicate the park to the Pumas, a City-affiliated youth soccer team<sup><a href="#citation-3">[3]</a></sup>. The Pumas were awarded
           around $100,000 in state parks funds<sup><a href="#citation-4">[4]</a></sup>, which they used to convert Osornio Park into a soccer facility. Trees were removed, as well
           as a walking trail and exercise equipment that residents would use. Fences and locking gates were added, as well as "No Animals in Park"
           signs.
         </p>
+
+        <ImageContainer src={require('../images/IMG_20191012_145835.jpg')} alt="Osornio Park: the least friendly park in Southern California"/>
+
+        <ImageContainer src={require('../images/IMG_20191012_145954.jpg')} alt="'No Animals in Park' sign at Osornio Park, La Habra, California"/>
+
       </article>
 
       <article>
         <h2>Park Issues</h2>
-        <ImageContainer src={require('../images/IMG_20190128_133052.jpg')} alt="Osornio Park locked and closed to the public, La Habra, California"/>
+
+        <ImageContainer src={require('../images/PSX_20191026_203307.jpg')} alt="Soccer team parents parking on the basketball courts at Osornio Park, La Habra, California"/>
+
+
         <ul>
           <li>
             Since 2011, people visiting the park with dogs have been approached by non-City officials threatening that the City of La Habra
@@ -57,14 +69,16 @@ export default () => (
 
           </li>
         </ul>
-        <ImageContainer src={require('../images/PSX_20191026_203307.jpg')} alt="Soccer team parents parking on the basketball courts at Osornio Park, La Habra, California"/>
+
+        <ImageContainer src={require('../images/IMG_20190128_133052.jpg')} alt="Osornio Park locked and closed to the public, La Habra, California"/>
+
 
       </article>
       
       <article>
         <h2>What We Propose</h2>
         <p>
-          We are asking that the City of La Habra, whose motto is "A Caring Community", to care about how their relationship with organized
+          We are asking that the City of La Habra, whose motto is "A Caring Community", to care more about how their relationship with organized
           sports teams affects the surrounding community.
         </p>
         <p>We are circulating a petition that asks for the following:</p>
