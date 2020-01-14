@@ -55,7 +55,7 @@ export default props => (
         margin: 0;
         padding-left: 20px;
       }
-      ul li {
+      ul > li {
         list-style-type: "»  ";
         padding: 0 0 14px 0;
       }
