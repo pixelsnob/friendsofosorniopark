@@ -50,6 +50,7 @@ export default () => (
         <ImageContainer src={require('../images/PSX_20191026_203307.jpg')} alt="Soccer team parents parking on the basketball courts at Osornio Park, La Habra, California"/>
 
         <IssuesList/>
+        <p><a href="/issues">Full list of Issues</a></p>
 
         <ImageContainer src={require('../images/IMG_20190128_133052.jpg')} alt="Osornio Park locked and closed to the public, La Habra, California"/>
 

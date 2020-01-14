@@ -45,10 +45,10 @@ export default props => {
           There are only two parking spots for the entire park, so <strong>sports team parents park on the basketball court, and have caused parking
           issues for the immediate neighbors</strong>
         </li>
-        <li>
+        {/* <li>
           The <a href="http://www.lhcm.org/DocumentCenter/View/9212/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank" title="Link to La Habra's Sports Affiliate Policy on their website">link to La Habra's "Sports Affiliate Policy"</a> is
           broken, so <strong>currently, there is no easy way to see what rules youth sports teams must abide by</strong>
-        </li>
+        </li> */}
         <li>
           <strong>For some reason, the signs that say "No Animals in Park" point to <a href="http://qcode.us/codes/lahabra/view.php?topic=6-6_04-6_04_150&frames=on" title="Link to La Habra Municipal Code 6.04.150" target="_blank">La Habra Municipal Code 6.04.150</a></strong>,
           which states <em>"Quarantine" means isolation of a dog or other animal in an enclosure or other environment so that the dog or animal cannot be subject to other animals
