@@ -5,13 +5,26 @@ export default props => {
 
   let moreListItems;
 
-  // if (props.full) {
-  //   moreListItems = (
-  //     <li>
-  //       More
-  //     </li>
-  //   );
-  // }
+  if (props.full) {
+    moreListItems = (
+      <li>
+        During a meeting of the City Council on October 1, 2018,
+        a resolution was passed allowing "certain City parks to be posted for access by dogs on leash". Osornio Park, as well as nearby La Bonita Park, were excluded,
+        and the reason given was <em>"...due to active youth sports"</em>, which is vague and does not specify <strong>why dogs on leashes
+        are not allowed at the park when it is not in use by "active youth sports"?</strong> From page 4 of
+        the <a href="http://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_10012018-1004" target="_blank">City Council Minutes</a>:
+        <blockquote>
+          Public Works Director Saykali presented the staff report. He reported that the purpose of the
+          resolution was to designate certain City parks to be posted for access by dogs on leash as follows:
+          Brio, Constitution Plaza, Corona, Descanso, El Centro, Guadalupe, Las Lomas, Leslie, Loma
+          Norte, Loma Verde, Mahoney, Montwood, Oeste, Old Reservoir, Richard’s, San Miguel De
+          Allende, Terazza, Vista De Valle-East, Vista De Valle-West, and Vista Grande. <strong>He stated that
+          due to active youth sports, staff recommended the following parks be designated as prohibited
+          for access and use by dogs: Estelli, La Bonita, Portola, and Osornio.</strong>
+        </blockquote>
+      </li>
+    );
+  }
 
   return (
     <Fragment>

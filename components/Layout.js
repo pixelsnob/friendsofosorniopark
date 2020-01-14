@@ -49,12 +49,25 @@ export default props => (
         
       }
       .nav-container {
-        
         padding-top: 18px;
       }
-      .layout {
-        
+      ul {
+        margin: 0;
+        padding-left: 20px;
       }
+      ul li {
+        list-style-type: "»  ";
+        padding: 0 0 14px 0;
+      }
+      li {
+        
+        
+        margin: 0;
+      }
+      ol[type="a"] li {
+        padding: 0;
+      }
+      
       @media screen and (max-width: 768px) {
         
       }
