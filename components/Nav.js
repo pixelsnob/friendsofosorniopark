@@ -3,7 +3,9 @@ export default () => (
   <nav>
     <ul>
       <li><a href="/issues">Osornio Park Issues</a></li>
+      <li><a href="/sports-teams-and-the-community">Sports Teams and the Community</a></li>
       <li><a href="/petition">Osornio Park Petition</a></li>
+
     </ul>
     <style jsx>{`
       ul {

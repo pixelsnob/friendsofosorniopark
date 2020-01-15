@@ -6,10 +6,10 @@ export default () => (
   <Layout>
 
     <article>
-      <h2>List of Issues and Incidents at Osornio Park</h2>
-      <p>As reported by the community.</p>
+      <h2>List of Issues at Osornio Park</h2>
 
       <IssuesList full={true}/>
+
     </article>
     
     <style jsx>{`

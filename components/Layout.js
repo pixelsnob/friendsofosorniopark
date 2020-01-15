@@ -51,17 +51,15 @@ export default props => (
       .nav-container {
         padding-top: 18px;
       }
-      ul {
+      /*ul {
         margin: 0;
         padding-left: 20px;
       }
       ul > li {
         list-style-type: "»  ";
         padding: 0 0 14px 0;
-      }
+      }*/
       li {
-        
-        
         margin: 0;
       }
       ol[type="a"] li {

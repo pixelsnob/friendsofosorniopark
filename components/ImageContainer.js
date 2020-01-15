@@ -14,7 +14,7 @@ export default (props) => {
           float: right;
           clear: both;
           width: 50vw;
-          margin: 15px 0 15px 15px;
+          margin: 20px;
 
         }
         .image-container img {

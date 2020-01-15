@@ -20,7 +20,7 @@ export default () => (
           La Habra, California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank">(Google Maps)</a>. The park
           used to be the playground and sports field for Hacienda School, until the school closed in 1989<sup><a href="#citation-1">[1]</a></sup>.
         </p>
-        <ImageContainer src={require('../images/IMG_0136.JPG')} alt="Osornio Park in 2010, La Habra, California"/>
+        <ImageContainer src={require('../images/IMG_0136.jpg')} alt="Osornio Park in 2010, La Habra, California"/>
 
 
         <p>
@@ -79,20 +79,25 @@ export default () => (
       </article>
 
       <article>
-        <h3>How You can Help</h3>
-        
-        <p>
-          There are several reviews by residents on <a target="_blank" href="https://www.google.com/maps/place/Osornio+Park/@33.945514,-117.9657207,15z/data=!4m5!3m4!1s0x0:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207">the Osornio Park listing on Google Maps</a> that
-          talk about these issues. There is also <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">a review by the head of the La Habra Pumas soccer team, where he blames
-          "pet owners" for dog waste</a>. Please read these reviews and consider leaving a review of your own if you have encountered issues
-          at Osornio Park.
-        </p>
+        <h3>How to Get Involved</h3>
+        <ul>
+          <li>
+            There are several reviews by residents on <a target="_blank" href="https://www.google.com/maps/place/Osornio+Park/@33.945514,-117.9657207,15z/data=!4m5!3m4!1s0x0:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207">the Osornio Park listing on Google Maps</a> that
+            talk about these issues. There is also <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">a review by the head of the La Habra Pumas soccer team, where he blames
+            "pet owners" for dog waste</a>. Please read these reviews and consider leaving a review of your own if you have encountered issues
+            at Osornio Park
+          </li>
 
-        <p>
-          If you have pictures of Osornio Park that you would like to share, especially those taken before the soccer remodel, please let us know
-          at <a href="mailto:info@friendsofosorniopark.org">info@friendsofosorniopark.org</a>
-        </p>
+          <li>
+            If you have pictures of Osornio Park that you would like to share, especially those taken before the soccer remodel, please let us know
+            at <a href="mailto:info@friendsofosorniopark.org">info@friendsofosorniopark.org</a>
+          </li>
 
+          <li>
+            Voice your concerns to the City by contacting the Recreation Division of
+            the <a href="https://www.lahabracity.com/321/Community-Services" target="_blank">La Habra Community Services Department</a>
+          </li>
+        </ul>
       </article>
       
       <article>

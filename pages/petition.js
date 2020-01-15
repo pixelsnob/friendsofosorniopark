@@ -1,6 +1,5 @@
 
 import { Fragment } from 'react';
-import Head from '../components/Head';
 import PetitionText from '../components/PetitionText';
 import Layout from '../components/Layout';
 
