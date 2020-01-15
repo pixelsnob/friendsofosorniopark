@@ -43,7 +43,7 @@ export default props => (
         text-decoration: none;
       }
       h2 {
-        text-align: center;
+        
       }
       .content {
         
@@ -51,10 +51,10 @@ export default props => (
       .nav-container {
         padding-top: 18px;
       }
-      /*ul {
+      ul {
         margin: 0;
         padding-left: 20px;
-      }
+      }/*
       ul > li {
         list-style-type: "»  ";
         padding: 0 0 14px 0;
@@ -65,7 +65,11 @@ export default props => (
       ol[type="a"] li {
         padding: 0;
       }
-      
+      blockquote {
+        background-color: #eee;
+        margin-left: 20px;
+        padding: 15px;
+      }
       @media screen and (max-width: 768px) {
         
       }

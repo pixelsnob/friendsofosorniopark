@@ -13,7 +13,7 @@ export default props => {
           During a meeting of the City Council on October 1, 2018,
           a resolution was passed allowing "certain City parks to be posted for access by dogs on leash". Osornio Park, as well as nearby La Bonita Park, were excluded,
           and the reason given was <em>"...due to active youth sports"</em>, which is vague and does not specify <strong>why dogs on leashes
-          are not allowed at the park when it is not in use by active youth sports.</strong><br/>From page 4 of
+          are not allowed at the park when it is not in use by active youth sports.</strong><br/> From page 4 of
           the <a href="http://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_10012018-1004" target="_blank">City Council Minutes</a>:
           <blockquote>
             Public Works Director Saykali presented the staff report. He reported that the purpose of the

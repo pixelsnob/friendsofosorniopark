@@ -14,7 +14,7 @@ export default () => (
 
     <section className="articles">
       <article>
-        <h3>Where is Osornio Park?</h3>
+        <h2>Where is Osornio Park?</h2>
         <p>
           Osornio Park is a public park about a half mile north of Whittier Blvd on Hacienda Road in
           La Habra, California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank">(Google Maps)</a>. The park
@@ -45,9 +45,8 @@ export default () => (
       </article>
 
       <article>
-        <h3>Park Issues</h3>
+        <h2>Park Issues</h2>
 
-        <ImageContainer src={require('../images/PSX_20191026_203307.jpg')} alt="Soccer team parents parking on the basketball courts at Osornio Park, La Habra, California"/>
 
         <IssuesList/>
         <p><a href="/issues">Full list of Issues</a></p>
@@ -58,7 +57,7 @@ export default () => (
       </article>
       
       <article>
-        <h3>What We Propose</h3>
+        <h2>What We Propose</h2>
         <p>
           We are asking that the City of La Habra, whose motto is "A Caring Community", to care more about how their relationship with organized
           sports teams affects the surrounding community.
@@ -79,7 +78,7 @@ export default () => (
       </article>
 
       <article>
-        <h3>How to Get Involved</h3>
+        <h2>How to Get Involved</h2>
         <ul>
           <li>
             There are several reviews by residents on <a target="_blank" href="https://www.google.com/maps/place/Osornio+Park/@33.945514,-117.9657207,15z/data=!4m5!3m4!1s0x0:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207">the Osornio Park listing on Google Maps</a> that
@@ -101,7 +100,7 @@ export default () => (
       </article>
       
       <article>
-        <h3>References</h3>
+        <h2>References</h2>
           <ol>
           <li id="citation-1">
             <a target="_blank" href="https://www.cde.ca.gov/schooldirectory/details?cdscode=19647666020143">Hacienda School</a> -
