@@ -43,39 +43,17 @@ export default props => {
           
           <strong>The park gets closed every winter for maintenance, and is sometimes completely locked so that the public can't access it, but sports teams
           continue to hold practices and games</strong>. See <a href="/sports-teams-and-the-community">Sports Teams and the Community</a> for more details
-
-          {/* According to
-          the <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF">City of La Habra Sports Affiliate Policy</a>,
-          Osornio Park is closed to sports team use during the entire month of December. However:
-          <ol>
-            <li>
-              On December 12, 2019, there was a youth soccer team practice in the evening, using City portable lights. But the City's Recreation Department
-              says they don't know who used the park that night
-            </li>
-            <li>
-              There is a <a href="https://www.facebook.com/2298324260383506/videos/550781629096486/" target="_blank">video posted on the Puma's La Habra Facebook page</a> that shows a practice being held, and portable lighting in the background. The video
-              is dated December 6, 2019
-            </li>
-          </ol> */}
           
         </li>
         <li>
           There are only two parking spots for the entire park, so <strong>sports team parents park on the basketball court, and have caused parking
           issues for the immediate neighbors</strong>
         </li>
-        {/* <li>
-          The <a href="http://www.lhcm.org/DocumentCenter/View/9212/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank" title="Link to La Habra's Sports Affiliate Policy on their website">link to La Habra's "Sports Affiliate Policy"</a> is
-          broken, so <strong>currently, there is no easy way to see what rules youth sports teams must abide by</strong>
-        </li> */}
         <li>
           <strong>For some reason, the signs that say "No Animals in Park" point to <a href="http://qcode.us/codes/lahabra/view.php?topic=6-6_04-6_04_150&frames=on" title="Link to La Habra Municipal Code 6.04.150" target="_blank">La Habra Municipal Code 6.04.150</a></strong>,
           which states <em>"Quarantine" means isolation of a dog or other animal in an enclosure or other environment so that the dog or animal cannot be subject to other animals
           or unauthorized persons. (Ord. 1627 § 1, 2003)</em>
         </li>
-        {/* <li>
-          The latest <a href="https://www.lahabracity.com/DocumentCenter/View/7325/2018-sport-affiliate-park-use-calendars?bidId=" target="_blank" title="Link to La Habra's Sports Affiliate Facility Usage Calendar">Sports Affiliate Facility Usage Calendar</a> available
-          is for 2018, so <strong>the public has no easy way to find out who has permission by the City to play at Osornio Park</strong>
-        </li> */}
 
         {moreListItems}
       

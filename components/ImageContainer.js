@@ -13,7 +13,7 @@ export default (props) => {
         .image-container {
           float: right;
           clear: both;
-          width: 50vw;
+          width: ${props.width || '50vw'};
           margin: 20px;
 
         }

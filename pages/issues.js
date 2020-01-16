@@ -12,11 +12,6 @@ export default () => (
 
     </article>
     
-    <style jsx>{`
-      .petition-abbreviated li {
-        font-weight: bold;
-      }
-    `}</style>
   </Layout>
 );
 
