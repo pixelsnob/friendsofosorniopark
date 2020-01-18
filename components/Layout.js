@@ -55,6 +55,7 @@ export default props => (
         margin: 0;
         padding-left: 20px;
       }
+
       /*
       ul > li {
         list-style-type: "»  ";
@@ -71,6 +72,9 @@ export default props => (
         background-color: #eee;
         margin-left: 20px;
         padding: 15px;
+      }
+      blockquote p:first-child {
+        margin-top: 0;
       }
       @media screen and (max-width: 768px) {
         

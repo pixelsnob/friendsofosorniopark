@@ -1,7 +1,9 @@
 
 import Layout from '../components/Layout';
 import ImageContainer from '../components/ImageContainer';
-  
+
+const sportsAffiliatePolicyLink = <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">City of La Habra Sports Affiliate Policy</a>;
+
 export default () => (
   <Layout>
 
@@ -11,38 +13,38 @@ export default () => (
 
       <p>
         The City of La Habra requires its youth sports affiliates to abide by certain rules described in
-        the <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">City of La Habra Sports Affiliate Policy</a>.
-        Several parts of this document remind sports teams to be respectful of neighbors, and to develop and maintain a good relationship with the community.
+        the {sportsAffiliatePolicyLink}. Several parts of this document remind sports teams to be respectful of neighbors, and to develop and maintain a good relationship with the community.
         
       </p>
-
-      <p>Some examples:</p>
       <ul>
         <li>
-          <p><strong>Purpose of Policy</strong>, page 4, paragraph 1:</p>
+          {/* <p><strong>Purpose of Policy</strong>, page 4, paragraph 1:</p> */}
           <blockquote>
-          The City of La Habra and La Habra City School District welcomes the use of City and District
-          facilities by local youth sports organization and is interested in maintaining strong relationships
-          with these organizations. Our intent is to create a policy that takes into account the needs of the
-          Affiliate organizations, and the needs of the community, while minimizing the impact on the
-          neighbors surrounding the various park sites. <strong>We expect that each affiliate will always be respectful
-          to the neighbors, staff, and community as a whole.</strong>
+            <p>The City of La Habra and La Habra City School District welcomes the use of City and District
+            facilities by local youth sports organization and is interested in maintaining strong relationships
+            with these organizations. Our intent is to create a policy that takes into account the needs of the
+            Affiliate organizations, and the needs of the community, while minimizing the impact on the
+            neighbors surrounding the various park sites. <strong>We expect that each affiliate will always be respectful
+            to the neighbors, staff, and community as a whole.</strong></p>
+            <footer>{sportsAffiliatePolicyLink}, page 4</footer>
           </blockquote>
         </li>
         <li>
-          <p><strong>Purpose of Policy</strong>, page 4, paragraph 4:</p>
+          {/* <p><strong>Purpose of Policy</strong>, page 4, paragraph 4:</p> */}
           <blockquote>
-            It is important to note that this Sport Affiliate Policy serves as the guide to manage affiliate groups
+            <p>It is important to note that this Sport Affiliate Policy serves as the guide to manage affiliate groups
             using facilities for organized programming. However, <strong>each facility is a public park or school and
-            this guide does not extend into the public use of those areas when groups are not using the facility.</strong> 
+            this guide does not extend into the public use of those areas when groups are not using the facility.</strong></p>
+            <footer>{sportsAffiliatePolicyLink}, page 4</footer>
           </blockquote>
         </li>
         <li>
-          <p>And from <strong>General Sport Park Facility Use Guidelines</strong>, page 12, paragraph 1:</p>
+          {/* <p>And from <strong>General Sport Park Facility Use Guidelines</strong>, page 12, paragraph 1:</p> */}
           <blockquote>
-            The City is supportive of the activities scheduled by La Habra youth sports based groups;
+            <p>The City is supportive of the activities scheduled by La Habra youth sports based groups;
             however, <strong>it must also be sensitive to the neighbors who live around the facilities and be
-            respectful of their privacy.</strong>
+            respectful of their privacy.</strong></p>
+            <footer>{sportsAffiliatePolicyLink}, page 12</footer>
           </blockquote>
         </li>
       </ul>
