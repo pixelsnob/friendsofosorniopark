@@ -70,7 +70,7 @@ export default () => (
           <ul>
             
             <li>
-              There is a <a href="https://www.facebook.com/2298324260383506/videos/550781629096486/" target="_blank">video posted on the Puma's La Habra Facebook page</a> that shows a practice being held, and portable lighting in the background. The video
+              There is a <a href="https://www.facebook.com/2298324260383506/videos/550781629096486/" target="_blank">video posted on the Pumas La Habra Facebook page</a> that shows a practice being held, and portable lighting in the background. The video
               is dated December 6, 2019
               <ImageContainer width="40vw" src={require('../images/pumas-video-december-6.jpg')} alt="Video of practice by the La Habra at Osornio Park, December 6, 2019, La Habra, California"/>
 
