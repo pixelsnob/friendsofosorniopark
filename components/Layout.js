@@ -26,12 +26,24 @@ export default props => (
         line-height: 1.7;
         padding: 10px;
       }
-      a {
+      a:link, a:visited, a:active, a:hover {
         color: green;
         font-weight: bold;
       }
+      a:hover {
+        color: #444;
+      }
       nav a {
         text-decoration: none;
+      }
+      a.loud {
+        background-color: green;
+        color: white;
+        padding: 1px 3px;
+        text-decoration: none;
+      }
+      a.loud:hover {
+        background-color: #444;
       }
       h1 { 
         text-align: center;

@@ -72,9 +72,10 @@ export default () => (
 
         <p><a href="/petition">Read the full petition here</a></p>
         <p>
-          If you would like to add your signature to this petition, please email <a href="mailto:petition@friendsofosorniopark.org">petition@friendsofosorniopark.org</a>
+          If you would like to add your hand-written signature to this petition, please email <a href="mailto:petition@friendsofosorniopark.org">petition@friendsofosorniopark.org</a>
         </p>
         
+        <p><strong><a className="loud" href="https://www.change.org/p/return-osornio-park-to-the-community" target="_blank">Or sign the petition on change.org</a></strong></p>
       </article>
 
       <article>
