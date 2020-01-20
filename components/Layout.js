@@ -65,21 +65,13 @@ export default props => (
       }
       ul {
         margin: 0;
-        padding-left: 20px;
+        padding-left: 25px;
       }
-
-      /*
-      ul > li {
-        list-style-type: "»  ";
-        padding: 0 0 14px 0;
-      }*/
       
       li {
         margin: 0;
       }
-      ol[type="a"] li {
-        padding: 0;
-      }
+      
       blockquote {
         background-color: #eee;
         margin-left: 20px;

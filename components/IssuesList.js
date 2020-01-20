@@ -39,7 +39,7 @@ export default props => {
     );
 
     references = (
-      <article>
+      <section>
         <h2>References</h2>
         <ol>
           <li id="citation-1">
@@ -49,7 +49,7 @@ export default props => {
             August 1, 2019 <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">City of La Habra Planning Commission Agenda Report</a>, page 3
           </li>
         </ol>
-      </article>
+      </section>
     );
   }
 

@@ -12,7 +12,7 @@ export default () => (
       We are not affiliated with the City of La Habra.
     </p>
 
-    <section className="articles">
+    <div className="articles">
       <article>
         <h2>Where is Osornio Park?</h2>
         <p>
@@ -119,7 +119,7 @@ export default () => (
           </li>
         </ol>
       </article>
-    </section>
+    </div>
     <style jsx>{`
       .petition-abbreviated li {
         font-weight: bold;
