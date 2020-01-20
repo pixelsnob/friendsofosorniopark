@@ -80,8 +80,9 @@ export default props => {
         </li>
 
         {moreListItems}
-        {references}
+        
       </ul>
+      {references}
       <style jsx>{`
         
       `}</style>
