@@ -14,7 +14,7 @@ export default () => (
 
     <div className="articles">
       <article>
-        <h2>Where is Osornio Park?</h2>
+        <h2>About Osornio Park</h2>
         <p>
           Osornio Park is a public park about a half mile north of Whittier Blvd on Hacienda Road in
           La Habra, California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank">(Google Maps)</a>. The park

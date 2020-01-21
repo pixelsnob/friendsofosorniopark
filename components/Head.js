@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 export default props => (  
   <Head>
-    <title>Friends of Osornio Park | La Habra, California</title>
+    <title>Friends of Osornio Park: La Habra, California</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan%7CMontserrat:400,700&display=swap" rel="stylesheet"></link>
     {props.children}
