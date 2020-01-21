@@ -13,20 +13,24 @@ export default () => (
         margin: 0 0 40px 0;
         padding: 0;
         display: flex;
-        justify-content: space-around;
-        border-top: 3px solid #ddd;
-        border-bottom: 3px solid #ddd;
+        justify-content: space-between;
+        
+        border-color: #ddd;
+        border-width: 3px 0;
+        border-style: solid;
       }
       li {
         list-style-type: none;
-        padding: 0;
+        padding: 2px;
         margin: 0;
         line-height: 2;
       }
       a {
         text-decoration: none;
+        white-space: nowrap;
+        font-size: 1rem;
       }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 992px) {
         ul {
           display: block;
         }

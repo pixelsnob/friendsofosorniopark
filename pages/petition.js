@@ -48,6 +48,7 @@ const Index = () => (
     <PetitionText/>
     
     <p className="petition-email">If you are interested in signing this petition, please email <a href="mailto:petition@friendsofosorniopark.org">petition@friendsofosorniopark.org</a></p>
+    <p className="change-org-link-container"><a className="loud" target="_blank" href="https://www.change.org/p/return-osornio-park-to-the-community">Or sign the petition on change.org</a></p>
 
     <br/>
     <table className="petition-list">
@@ -67,7 +68,7 @@ const Index = () => (
       h2 {
         text-align: center;
       }
-      .petition-email {
+      .petition-email, .change-org-link-container {
         text-align: center;
       }
       table {
@@ -109,7 +110,7 @@ const Index = () => (
         .petition-list {
           display: table;
         }
-        .petition-email, .print-petition {
+        .petition-email, .print-petition, .change-org-link-container {
           display: none;
         }
       }

@@ -8,7 +8,7 @@ module.exports = withPlugins([
     optimizeImagesInDev: true,
     mozjpeg: {
       quality: 62,
-    },
+    }
   }],
 
   // your other plugins here

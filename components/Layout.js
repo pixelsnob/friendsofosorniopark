@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import Head from './Head';
+import Footer from './Footer';
 import Nav from './Nav';
 
 //import Link from 'next/link';
@@ -16,6 +17,13 @@ export default props => (
         {props.children}
       </div>
     </div>
+    <Footer/>
+    <style jsx>{`
+      .nav-container {
+        padding-top: 18px;
+      }
+    `}</style>
+
     <style jsx global>{`
       
       /*** Global styles ***/
@@ -55,23 +63,15 @@ export default props => (
         text-decoration: none;
       }
       h2 {
-        
-      }
-      .content {
-        
-      }
-      .nav-container {
-        padding-top: 18px;
+        text-align: center;
       }
       ul {
         margin: 0;
         padding-left: 25px;
       }
-      
       li {
         margin: 0;
       }
-      
       blockquote {
         background-color: #eee;
         margin-left: 20px;
@@ -80,6 +80,7 @@ export default props => (
       blockquote p:first-child {
         margin-top: 0;
       }
+      
       @media screen and (max-width: 768px) {
         
       }
