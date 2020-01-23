@@ -4,8 +4,7 @@ import ImageContainer from '../components/ImageContainer';
 import IssuesList from '../components/IssuesList';
 
 export default () => (
-  <Layout>
-    
+  <Layout showBackToTopLink={true}>
     
     <p>
       We are a group of local residents with a common goal: to encourage the City of La Habra to make Osornio Park a more welcoming place for the entire community.

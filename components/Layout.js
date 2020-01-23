@@ -2,8 +2,8 @@ import { Fragment } from 'react';
 import Head from './Head';
 import Footer from './Footer';
 import Nav from './Nav';
+import BackToTopLink from './BackToTopLink';
 
-//import Link from 'next/link';
 
 export default props => (
   <Fragment>
@@ -17,6 +17,7 @@ export default props => (
         {props.children}
       </div>
     </div>
+    {props.showBackToTopLink ? <BackToTopLink/> : ''}
     <Footer/>
     <style jsx>{`
       .nav-container {
@@ -63,7 +64,7 @@ export default props => (
         text-decoration: none;
       }
       h2 {
-        text-align: center;
+        
       }
       ul {
         margin: 0;

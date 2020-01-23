@@ -10,7 +10,11 @@ export default () => (
     <style jsx>{`
       footer {
         text-align: center;
-        padding-top: 20px;
+        padding-top: 10px;
+        border-color: #ddd;
+        border-width: 3px 0 0;
+        border-style: solid;
+        clear: both;
       }
       p {
         font-size: 0.9rem;

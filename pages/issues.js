@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import IssuesList from '../components/IssuesList';
 
 export default () => (
-  <Layout>
+  <Layout showBackToTopLink={true}>
 
     <article>
       <h2>List of Issues at Osornio Park</h2>

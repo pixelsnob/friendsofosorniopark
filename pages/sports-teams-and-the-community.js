@@ -5,7 +5,7 @@ import ImageContainer from '../components/ImageContainer';
 const sportsAffiliatePolicyLink = <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">City of La Habra Sports Affiliate Policy</a>;
 
 export default () => (
-  <Layout>
+  <Layout showBackToTopLink={true}>
 
     <article>
 

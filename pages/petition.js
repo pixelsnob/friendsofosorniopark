@@ -48,7 +48,7 @@ const Index = () => (
     <PetitionText/>
     
     <p className="petition-email">If you are interested in signing this petition, please email <a href="mailto:petition@friendsofosorniopark.org">petition@friendsofosorniopark.org</a></p>
-    <p className="change-org-link-container"><a className="loud" target="_blank" href="https://www.change.org/p/return-osornio-park-to-the-community">Or sign the petition on change.org</a></p>
+    <p className="change-org-link-container"><a target="_blank" href="https://www.change.org/p/return-osornio-park-to-the-community">Or sign the petition on change.org</a></p>
 
     <br/>
     <table className="petition-list">
@@ -66,10 +66,10 @@ const Index = () => (
     </table>
     <style jsx>{`
       h2 {
-        text-align: center;
+        
       }
       .petition-email, .change-org-link-container {
-        text-align: center;
+        
       }
       table {
         width: 100%;
@@ -85,7 +85,7 @@ const Index = () => (
         padding: 5px;
       }
       .intro {
-        text-align: center;
+        
       }
       .name {
         width: 25%;

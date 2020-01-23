@@ -14,7 +14,6 @@ export default () => (
         padding: 0;
         display: flex;
         justify-content: space-between;
-        
         border-color: #ddd;
         border-width: 3px 0;
         border-style: solid;
@@ -25,7 +24,7 @@ export default () => (
         margin: 0;
         line-height: 2;
       }
-      a {
+      a:link, a:visited, a:active, a:hover {
         text-decoration: none;
         white-space: nowrap;
         font-size: 1rem;
@@ -33,9 +32,14 @@ export default () => (
       @media screen and (max-width: 992px) {
         ul {
           display: block;
+          padding: 6px 0;
         }
         li {
           text-align: center;
+          line-height: 1.7;
+        }
+        a:link, a:visited, a:active, a:hover {
+          font-size: 1.2rem;
         }
       }
     `}</style>
