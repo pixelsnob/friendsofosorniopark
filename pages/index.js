@@ -5,12 +5,10 @@ import IssuesList from '../components/IssuesList';
 
 export default () => (
   <Layout showBackToTopLink={true}>
-    
     <p>
       We are a group of local residents with a common goal: to encourage the City of La Habra to make Osornio Park a more welcoming place for the entire community.
       We are not affiliated with the City of La Habra.
     </p>
-
     <div className="articles">
       <article>
         <h2>About Osornio Park</h2>
@@ -19,7 +17,7 @@ export default () => (
           La Habra, California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank">(Google Maps)</a>. The park
           used to be the playground and sports field for Hacienda School, until the school closed in 1989<sup><a href="#citation-1">[1]</a></sup>.
         </p>
-        <ImageContainer src={require('../images/IMG_0136.jpg')} alt="Osornio Park in 2010, La Habra, California"/>
+        <ImageContainer src={require('../images/IMG_0136.jpg')} caption="Osornio Park in 2010"/>
 
 
         <p>
@@ -27,7 +25,7 @@ export default () => (
           The park remained basically untouched, and looked like the schoolyard that it once was until about 2010. It was enjoyed by residents,
           who would gather in the only open space in this area not already taken up by sports facilities, schools, or businesses.
         </p>
-        <ImageContainer src={require('../images/IMG_20191105_151138.jpg')} alt="Memorial for Michael A. Osornio at Osornio Park, La Habra, California"/>
+        <ImageContainer src={require('../images/IMG_20191105_151138.jpg')} caption="Memorial for Michael A. Osornio at Osornio Park"/>
 
 
         <p>
@@ -37,9 +35,9 @@ export default () => (
           signs.
         </p>
 
-        <ImageContainer src={require('../images/IMG_20191012_145835.jpg')} alt="Osornio Park: the least friendly park in Southern California"/>
+        <ImageContainer src={require('../images/IMG_20191012_145835.jpg')} caption="Osornio Park: the least friendly park in Southern California"/>
 
-        <ImageContainer src={require('../images/IMG_20191012_145954.jpg')} alt="'No Animals in Park' sign at Osornio Park, La Habra, California"/>
+        <ImageContainer src={require('../images/IMG_20191012_145954.jpg')} caption="'No Animals in Park' sign at Osornio Park"/>
 
       </article>
 
@@ -50,7 +48,7 @@ export default () => (
         <IssuesList/>
         <p><a href="/issues">Full list of Issues</a></p>
 
-        <ImageContainer src={require('../images/IMG_20190128_133052.jpg')} alt="Osornio Park locked and closed to the public, La Habra, California"/>
+        <ImageContainer src={require('../images/IMG_20190128_133052.jpg')} caption="Osornio Park locked and closed to the public"/>
 
 
       </article>
@@ -74,7 +72,7 @@ export default () => (
           If you would like to add your hand-written signature to this petition, please email <a href="mailto:petition@friendsofosorniopark.org">petition@friendsofosorniopark.org</a>
         </p>
         
-        <p><strong><a className="loud" href="https://www.change.org/p/return-osornio-park-to-the-community" target="_blank">Or sign the petition on change.org</a></strong></p>
+        <p><strong><a href="https://www.change.org/p/return-osornio-park-to-the-community" target="_blank">Or sign the petition on change.org</a></strong></p>
       </article>
 
       <article>

@@ -1,30 +1,37 @@
 
 import { Fragment } from 'react';
-//import Link from 'next/link';
 
 export default (props) => {
 
   return (
     <Fragment>
-      <span className="image-container">
-        <img src={props.src} alt={props.alt}/>
-      </span>
+      <figure>
+        <img src={props.src} alt={props.caption}/>
+        {props.caption ? <figcaption>{props.caption}</figcaption> : ''}
+      </figure>
       <style jsx>{`
-        .image-container {
+        
+        figure {
+          margin: 0;
+          padding: 0;
           float: right;
           clear: both;
           width: ${props.width || '50vw'};
-          margin: 20px;
-
+          margin: 20px 0 20px 20px;
         }
-        .image-container img {
+        figcaption {
+          font-size: 0.9rem;
+          line-height: 1.4;
+          margin: 0;
+        }
+        img {
           width: 100%;
         }
         @media screen and (max-width: 768px) {
-          .image-container {
+          figure {
             float: none;
             width: 100%;
-            margin: 0;
+            margin: 20px 0;
   
           }
         }
