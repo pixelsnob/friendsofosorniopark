@@ -2,11 +2,23 @@
 import { Fragment } from 'react';
 
 export default (props) => {
+  
+  //  const oneSize = require('./images/my-image.jpg?resize&size=300');
+  const multipleSizes = require(`../images/${props.src}?resize&sizes[]=200&sizes[]=1200`);
+  //console.log('multipleSizes', multipleSizes)
 
   return (
     <Fragment>
-      <figure>
-        <img src={props.src} alt={props.caption}/>
+      <figure>        
+        {/* <img src={require(`../images/${props.src}`)} alt={props.caption}/> */}
+        <img srcSet={multipleSizes.srcSet} sizes="(max-width: 500px) 200px, 1200px" src={multipleSizes.src} />
+
+        {/* <picture>
+          <source srcSet={multipleSizes[0]} media="(min-width: 992px)" />
+          <source srcSet={multipleSizes[1]} media="(max-width: 993px)" />
+          <img src={multipleSizes.src} />
+        </picture> */}
+
         {props.caption ? <figcaption>{props.caption}</figcaption> : ''}
       </figure>
       <style jsx>{`

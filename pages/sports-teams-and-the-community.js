@@ -72,13 +72,13 @@ export default () => (
             <li>
               There is a <a href="https://www.facebook.com/2298324260383506/videos/550781629096486/" target="_blank">video posted on the Pumas La Habra Facebook page</a> that shows a practice being held, and portable lighting in the background. The video
               is dated December 6, 2019
-              <ImageContainer src={require('../images/pumas-video-december-6.jpg')} caption="Video of practice by the La Habra Pumas at Osornio Park, December 6, 2019"/>
+              <ImageContainer src="pumas-video-december-6.jpg" caption="Video of practice by the La Habra Pumas at Osornio Park, December 6, 2019"/>
 
             </li>
             <li>
               On December 12, 2019, there was a youth soccer team practice in the evening, using City portable lights. But the City's Recreation Department
               says they don't know who used the park that night
-              <ImageContainer src={require('../images/IMG_20191212_181502.jpg')} caption="Night practice by soccer team at Osornio Park, December 12, 2019"/>
+              <ImageContainer src="IMG_20191212_181502.jpg" caption="Night practice by soccer team at Osornio Park, December 12, 2019"/>
             </li>
           </ul>
 

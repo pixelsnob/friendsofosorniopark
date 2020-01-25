@@ -17,7 +17,7 @@ export default () => (
           La Habra, California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank">(Google Maps)</a>. The park
           used to be the playground and sports field for Hacienda School, until the school closed in 1989<sup><a href="#citation-1">[1]</a></sup>.
         </p>
-        <ImageContainer src={require('../images/IMG_0136.jpg')} caption="Osornio Park in 2010"/>
+        <ImageContainer src="IMG_0136.jpg" caption="Osornio Park in 2010"/>
 
 
         <p>
@@ -25,7 +25,7 @@ export default () => (
           The park remained basically untouched, and looked like the schoolyard that it once was until about 2010. It was enjoyed by residents,
           who would gather in the only open space in this area not already taken up by sports facilities, schools, or businesses.
         </p>
-        <ImageContainer src={require('../images/IMG_20191105_151138.jpg')} caption="Memorial for Michael A. Osornio at Osornio Park"/>
+        <ImageContainer src="IMG_20191105_151138.jpg" caption="Memorial for Michael A. Osornio at Osornio Park"/>
 
 
         <p>
@@ -35,9 +35,9 @@ export default () => (
           signs.
         </p>
 
-        <ImageContainer src={require('../images/IMG_20191012_145835.jpg')} caption="Osornio Park: the least friendly park in Southern California"/>
+        <ImageContainer src="IMG_20191012_145835.jpg" caption="Osornio Park: the least friendly park in Southern California"/>
 
-        <ImageContainer src={require('../images/IMG_20191012_145954.jpg')} caption="'No Animals in Park' sign at Osornio Park"/>
+        <ImageContainer src="IMG_20191012_145954.jpg" caption="'No Animals in Park' sign at Osornio Park"/>
 
       </article>
 
@@ -48,7 +48,7 @@ export default () => (
         <IssuesList/>
         <p><a href="/issues">Full list of Issues</a></p>
 
-        <ImageContainer src={require('../images/IMG_20190128_133052.jpg')} caption="Osornio Park locked and closed to the public"/>
+        <ImageContainer src="IMG_20190128_133052.jpg" caption="Osornio Park locked and closed to the public"/>
 
 
       </article>
