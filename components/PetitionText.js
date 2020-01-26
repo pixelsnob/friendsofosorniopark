@@ -19,5 +19,10 @@ export default () => (
       </li>
       <li><strong>That the City of La Habra take the community into account when making changes and improvements to Osornio Park</strong></li>
     </ol>
+    <style jsx>{`
+      ol[type="a"] li {
+        padding: 0;
+      }
+    `}</style>
   </Fragment>
 )
