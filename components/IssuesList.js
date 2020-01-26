@@ -40,7 +40,7 @@ export default props => {
         <li>
           Community Outreach Meetings were held in the summer of 2019 to gather input into how State of California grant funds could be used to improve certain parks,
           including Osornio Park.
-          <ImageContainer src={require('../images/IMG_20190715_114402.jpg')} caption='"City of La Habra Community Outreach for New Park Improvements" flyer, June, 2019'/> If
+          <ImageContainer src="IMG_20190715_114402.jpg" caption='"City of La Habra Community Outreach for New Park Improvements" flyer, June, 2019'/> If
           grant money is awarded, Osornio Park could get improvements geared towards the community. 
           <strong> But the La Habra Pumas also had a representative at this meeting, showing that if the community remains
           silent, youth sports will continue to influence how our local parks are utilized and developed</strong> 
