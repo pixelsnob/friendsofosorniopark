@@ -1,5 +1,6 @@
 
 import { Fragment } from 'react';
+import ImageContainer from '../components/ImageContainer';
 
 export default props => {
 
@@ -34,6 +35,17 @@ export default props => {
           is at least 2 miles from Osornio Park and its surrounding residents.
           And close-by La Bonita Park <a href="https://www.google.com/maps/place/La+Bonita+Park/@33.937307,-117.9640657,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52dde790b0b:0xa224518a83c83eda!8m2!3d33.937307!4d-117.961877" target="_blank">(Google Maps)</a> is
           also not dog-friendly. <strong>What we need is a dog-friendly option for Osornio Park that does not require a 2-mile drive to another part of La Habra</strong>
+        </li>
+
+        <li>
+          Community Outreach Meetings were held in the summer of 2019 to gather input into how State of California grant funds could be used to improve certain parks,
+          including Osornio Park.
+          <ImageContainer src={require('../images/IMG_20190715_114402.jpg')} caption='"City of La Habra Community Outreach for New Park Improvements" flyer, June, 2019'/> If
+          grant money is awarded, Osornio Park could get improvements geared towards the community. 
+          <strong> But the La Habra Pumas also had a representative at this meeting, showing that if the community remains
+          silent, youth sports will continue to influence how our local parks are utilized and developed</strong> 
+          
+
         </li>
       </Fragment>
     );

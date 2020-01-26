@@ -68,10 +68,11 @@ export default props => (
       }
       ul {
         margin: 0;
-        padding-left: 25px;
+        padding-left: 30px;
       }
       li {
         margin: 0;
+        padding: 0 0 10px 0;
       }
       blockquote {
         background-color: #eee;
@@ -83,7 +84,9 @@ export default props => (
       }
       
       @media screen and (max-width: 768px) {
-        
+        ul {
+          padding-left: 20px;
+        }
       }
       @media print {
         nav, h1 {

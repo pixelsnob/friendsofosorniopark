@@ -37,7 +37,7 @@ export default () => (
 
         <ImageContainer src="IMG_20191012_145835.jpg" caption="Osornio Park: the least friendly park in Southern California"/>
 
-        <ImageContainer src="IMG_20191012_145954.jpg" caption="'No Animals in Park' sign at Osornio Park"/>
+        <ImageContainer src={'IMG_20191012_145954.jpg'} caption='"No Animals in Park" sign at Osornio Park'/>
 
       </article>
 
