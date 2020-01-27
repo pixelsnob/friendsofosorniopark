@@ -1,13 +1,16 @@
 
-import Head from 'next/head';
+import NextHead from 'next/head';
+import { withRouter } from 'next/router';
 
-export default props => (  
-  <Head>
+const Head = (props) => (
+  <NextHead>
     <title>Osornio Park, La Habra, California | Friends of Osornio Park</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan%7CMontserrat:400,700&display=swap" rel="stylesheet"></link>
-    {props.children}
-  </Head> 
-)
+    <link rel="canonical" href={`https://friendsofosorniopark.org${props.router.pathname}`} />
 
-{/* <meta name="description" content="We are a group of local community members with a common goal: to help make Osornio Park a more welcoming place for the entire community. We are not affiliated with the City of La Habra."></meta> */}
+    {props.children}
+  </NextHead>
+);
+
+export default withRouter(Head);
