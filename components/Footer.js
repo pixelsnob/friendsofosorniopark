@@ -20,6 +20,11 @@ export default () => (
         font-size: 0.9rem;
         margin: 0;
       }
+      @media print {
+        footer {
+          display: none;
+        }
+      }
     `}</style>
   </Fragment>
 )

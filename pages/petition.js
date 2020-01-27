@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 import PetitionText from '../components/PetitionText';
 import Layout from '../components/Layout';
 
-const tableRows = [ ...Array(11).keys() ].map((n, i) => {
+const tableRows = [ ...Array(12).keys() ].map((n, i) => {
   
   return (
     <Fragment key={i}>
@@ -22,19 +22,19 @@ const tableRows = [ ...Array(11).keys() ].map((n, i) => {
         .date {
           width: 14%;
         }
-        .phone {
+        /*.phone {
           width: 16%;
-        }
-        .email {
-          width: 20%;
+        }*/
+        .email-phone {
+          width: 36%;
         }
       `}</style>
       <tr>
         <td className="name">&nbsp;</td>
         <td className="signature">&nbsp;</td>
         <td className="date">&nbsp;</td>
-        <td className="phone">&nbsp;</td>
-        <td className="email">&nbsp;</td>
+        {/* <td className="phone">&nbsp;</td> */}
+        <td className="email-phone">&nbsp;</td>
       </tr>
     </Fragment>
   );
@@ -50,7 +50,6 @@ const Index = () => (
     <p className="petition-email">If you are interested in signing this petition, please email <a href="mailto:petition@friendsofosorniopark.org">petition@friendsofosorniopark.org</a></p>
     <p className="change-org-link-container"><a rel="nofollow" target="_blank" href="https://www.change.org/p/return-osornio-park-to-the-community">Or sign the petition on change.org</a></p>
 
-    <br/>
     <table className="petition-list">
       <tbody>
         <tr>
@@ -58,19 +57,14 @@ const Index = () => (
           <th className="signature">Signature</th>
 
           <th className="date">Date</th>
-          <th className="phone">Phone</th>
-          <th className="email">Email</th>
+          {/* <th className="phone">Phone</th> */}
+          <th className="email-phone">Email/Phone</th>
         </tr>
         {tableRows}
       </tbody>
     </table>
     <style jsx>{`
-      h2 {
-        
-      }
-      .petition-email, .change-org-link-container {
-        
-      }
+      
       table {
         width: 100%;
         table-layout: auto;
@@ -107,6 +101,12 @@ const Index = () => (
         display: none;
       }
       @media print {
+        h2 {
+          text-align: center;
+          margin: 0;
+          padding: 0;
+          line-height: 1;
+        }
         .petition-list {
           display: table;
         }
