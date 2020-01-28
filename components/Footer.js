@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 
 export default () => (
   <Fragment>  
-    <footer>
+    <footer className="noprint">
       <p>Copyright © {(new Date).getFullYear()} Friends of Osornio Park</p>
       <p><a href="/privacy-policy">Privacy Policy</a></p>
     </footer>
@@ -20,11 +20,7 @@ export default () => (
         font-size: 0.9rem;
         margin: 0;
       }
-      @media print {
-        footer {
-          display: none;
-        }
-      }
+      
     `}</style>
   </Fragment>
 )

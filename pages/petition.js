@@ -33,7 +33,6 @@ const tableRows = [ ...Array(12).keys() ].map((n, i) => {
         <td className="name">&nbsp;</td>
         <td className="signature">&nbsp;</td>
         <td className="date">&nbsp;</td>
-        {/* <td className="phone">&nbsp;</td> */}
         <td className="email-phone">&nbsp;</td>
       </tr>
     </Fragment>
@@ -57,7 +56,6 @@ const Index = () => (
           <th className="signature">Signature</th>
 
           <th className="date">Date</th>
-          {/* <th className="phone">Phone</th> */}
           <th className="email-phone">Email/Phone</th>
         </tr>
         {tableRows}
