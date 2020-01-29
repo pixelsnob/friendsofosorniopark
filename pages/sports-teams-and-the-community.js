@@ -12,17 +12,14 @@ export default () => (
       <meta name="description" content="Details about sports teams that play at Osornio Park, and how their actions affect the community."/>
     </Head>
     <article>
-
       <h2>Sports Teams and the Community</h2>
 
       <p>
         The City of La Habra requires its youth sports affiliates to abide by certain rules described in
         the {sportsAffiliatePolicyLink}. Several parts of this document remind sports teams to be respectful of neighbors, and to develop and maintain a good relationship with the community.
-        
       </p>
       <ul>
         <li>
-          {/* <p><strong>Purpose of Policy</strong>, page 4, paragraph 1:</p> */}
           <blockquote>
             <p>The City of La Habra and La Habra City School District welcomes the use of City and District
             facilities by local youth sports organization and is interested in maintaining strong relationships
@@ -34,7 +31,6 @@ export default () => (
           </blockquote>
         </li>
         <li>
-          {/* <p><strong>Purpose of Policy</strong>, page 4, paragraph 4:</p> */}
           <blockquote>
             <p>It is important to note that this Sport Affiliate Policy serves as the guide to manage affiliate groups
             using facilities for organized programming. However, <strong>each facility is a public park or school and
@@ -43,7 +39,6 @@ export default () => (
           </blockquote>
         </li>
         <li>
-          {/* <p>And from <strong>General Sport Park Facility Use Guidelines</strong>, page 12, paragraph 1:</p> */}
           <blockquote>
             <p>The City is supportive of the activities scheduled by La Habra youth sports based groups;
             however, <strong>it must also be sensitive to the neighbors who live around the facilities and be
@@ -87,16 +82,9 @@ export default () => (
               <ImageContainer src="IMG_20191212_181502.jpg" caption="Night practice by soccer team at Osornio Park, December 12, 2019"/>
             </li>
           </ul>
-
         </li>
-        
       </ul>
-
     </article>
-    
-    <style jsx>{`
-      
-    `}</style>
   </Layout>
 );
 

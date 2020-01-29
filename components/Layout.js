@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import Head from './Head';
+//import Head from './Head';
 import Footer from './Footer';
 import Nav from './Nav';
 import BackToTopLink from './BackToTopLink';
@@ -7,7 +7,7 @@ import BackToTopLink from './BackToTopLink';
 
 export default props => (
   <Fragment>
-    <Head/>
+    
     <h1 className="noprint"><a href="/" title="Friends of Osornio Park">Friends of Osornio Park</a></h1>
     <div className="content">
       <div className="nav-container">

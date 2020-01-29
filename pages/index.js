@@ -2,7 +2,7 @@
 import Layout from '../components/Layout';
 import ImageContainer from '../components/ImageContainer';
 import IssuesList from '../components/IssuesList';
-import Head from 'next/head';
+import Head from '../components/Head';
 
 const summary = 'Friends of Osornio Park is a group of residents with a common goal: to encourage the City of La Habra to make Osornio Park a more welcoming place for the entire community. We are not affiliated with the City of La Habra.';
 
