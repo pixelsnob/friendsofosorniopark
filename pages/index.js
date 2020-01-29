@@ -2,9 +2,13 @@
 import Layout from '../components/Layout';
 import ImageContainer from '../components/ImageContainer';
 import IssuesList from '../components/IssuesList';
+import Head from 'next/head';
 
 export default () => (
   <Layout showBackToTopLink={true}>
+    <Head>
+      <meta name="description" content="Osornio Park in La Habra is a public park taken over by City-affiliated sports teams. Sign the petition to return Osornio Park to the community!"/>
+    </Head>
     <p>
       We are a group of local residents with a common goal: to encourage the City of La Habra to make Osornio Park a more welcoming place for the entire community.
       We are not affiliated with the City of La Habra.
