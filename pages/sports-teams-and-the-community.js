@@ -1,12 +1,16 @@
 
 import Layout from '../components/Layout';
 import ImageContainer from '../components/ImageContainer';
+import Head from '../components/Head';
 
 const sportsAffiliatePolicyLink = <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">City of La Habra Sports Affiliate Policy</a>;
 
 export default () => (
   <Layout showBackToTopLink={true}>
-
+    <Head>
+      <title>Friends of Osornio Park | Sports Teams and the Community</title>
+      <meta name="description" content="Details about sports teams that play at Osornio Park, and how their actions affect the community."/>
+    </Head>
     <article>
 
       <h2>Sports Teams and the Community</h2>

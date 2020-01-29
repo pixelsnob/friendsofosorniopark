@@ -2,6 +2,7 @@
 import { Fragment } from 'react';
 import PetitionText from '../components/PetitionText';
 import Layout from '../components/Layout';
+import Head from '../components/Head';
 
 const tableRows = [ ...Array(12).keys() ].map((n, i) => {
   
@@ -41,6 +42,11 @@ const tableRows = [ ...Array(12).keys() ].map((n, i) => {
 
 const Index = () => (
   <Layout>
+    <Head>
+      <title>Friends of Osornio Park | Petition to the City of La Habra</title>
+      <meta name="description" content="Petition to the City of La Habra to make Osornio Park a friendlier place for the entire community."/>
+    </Head>
+
     <h2>Osornio Park Belongs to the Community!</h2>
     <p className="intro">We, the undersigned, request the following:</p>
 

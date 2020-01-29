@@ -1,11 +1,14 @@
 
-import Head from '../components/Head';
 import { Fragment } from 'react';
-import PetitionText from '../components/PetitionText';
+//import PetitionText from '../components/PetitionText';
+import Head from '../components/Head';
 
 export default () => (
   <Fragment>
-    <Head/>
+    <Head>
+      <title>Friends of Osornio Park | Printable Flyer</title>
+      <meta name="description" content="Printable flyer with information about Friends of Osornio Park."/>
+    </Head>
     <section>
       <h1>Osornio Park<br/>Belongs to the Community!</h1>
 
