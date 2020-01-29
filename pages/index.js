@@ -4,15 +4,14 @@ import ImageContainer from '../components/ImageContainer';
 import IssuesList from '../components/IssuesList';
 import Head from 'next/head';
 
+const summary = 'Friends of Osornio Park is a group of residents with a common goal: to encourage the City of La Habra to make Osornio Park a more welcoming place for the entire community. We are not affiliated with the City of La Habra.';
+
 export default () => (
   <Layout showBackToTopLink={true}>
     <Head>
-      <meta name="description" content="Osornio Park in La Habra is a public park taken over by City-affiliated sports teams. Sign the petition to return Osornio Park to the community!"/>
+      <meta name="description" content={summary}/>
     </Head>
-    <p>
-      We are a group of local residents with a common goal: to encourage the City of La Habra to make Osornio Park a more welcoming place for the entire community.
-      We are not affiliated with the City of La Habra.
-    </p>
+    <p>{summary}</p>
     <div className="articles">
       <article>
         <h2>About Osornio Park</h2>
@@ -22,7 +21,6 @@ export default () => (
           used to be the playground and sports field for Hacienda School, until the school closed in 1989<sup><a href="#citation-1">[1]</a></sup>.
         </p>
         <ImageContainer src="IMG_0136.jpg" caption="Osornio Park in 2010"/>
-
 
         <p>
           In 2001, the City of La Habra dedicated the park to Michael Osornio, who was killed by a drunk driver while on duty in 1994<sup><a href="#citation-2">[2]</a></sup>.
