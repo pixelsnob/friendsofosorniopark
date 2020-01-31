@@ -70,15 +70,11 @@ export default props => {
       <ul>
         <li>
           <strong>Since 2011, people visiting the park with dogs have been approached by non-City officials threatening that the City of La Habra
-          will cite them.</strong> People like the Puma's president, La Habra Heights firefighters, Los Angeles County Sheriff's deputies -- all approached
-          park visitors to tell them what to do in a public park -- even when the park 
-          wasn't in use by sports teams, or anyone at all
+          will cite them -- even when the park wasn't in use by anyone at all</strong>
         </li>
         <li>
-          
           <strong>The park gets closed every winter for maintenance, and is sometimes completely locked so that the public can't access it, but sports teams
           continue to hold practices and games</strong>. See <a href="/sports-teams-and-the-community">Sports Teams and the Community</a> for more details
-          
         </li>
         <li>
           There are only two parking spots for the entire park, so <strong>sports team parents park on the basketball court, and have caused parking
