@@ -90,9 +90,7 @@ export default props => {
         
       </ul>
       {references}
-      <style jsx>{`
-        
-      `}</style>
+      
     </Fragment>
   );
 }
