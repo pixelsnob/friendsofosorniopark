@@ -30,6 +30,8 @@ export default props => {
         </li>
         
         <li>
+          <ImageContainer src="vista-grande-plans.jpg" caption="Proposed dog park at Vista Grande Park, circled in red"/>
+
           <strong>Since at least 2014, the City of La Habra has been talking about a dog park at Vista Grande Park.<sup><a href="#citation-1">[1]</a></sup></strong> But
           Vista Grande Park <a href="https://www.google.com/maps/place/Vista+Grande+Park/@33.9228485,-117.9600172,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd2ac57cc350cd:0x60c9cd3b90e08d70!8m2!3d33.9228441!4d-117.9578285" target="_blank">(Google Maps)</a>, a former waste landfill<sup><a href="#citation-2">[2]</a></sup>, {/*that the City wants to develop into more sports facilities. */}
           is at least 2 miles from Osornio Park and its surrounding residents.
@@ -37,6 +39,10 @@ export default props => {
           also not dog-friendly. <strong>What we need is a dog-friendly option for Osornio Park that does not require a 2-mile drive to another part of La Habra</strong>
         </li>
 
+        <li>
+          <strong>The proposed dog park at Vista Grande is not much larger than a basketball court</strong>
+
+        </li>
         <li>
           Community Outreach Meetings were held in the summer of 2019 to gather input into how State of California grant funds could be used to improve certain parks,
           including Osornio Park.
@@ -47,6 +53,7 @@ export default props => {
           
 
         </li>
+        
       </Fragment>
     );
 
@@ -59,6 +66,10 @@ export default props => {
           </li>
           <li id="citation-2">
             August 1, 2019 <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">City of La Habra Planning Commission Agenda Report</a>, page 3
+          </li>
+          <li id="citation-3">
+            <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">Vista Grande Public Plans</a>, an attachment
+            to the <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">Planning Commission Agenda Report</a>, August 1, 2019
           </li>
         </ol>
       </section>
