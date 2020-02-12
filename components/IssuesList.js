@@ -92,6 +92,10 @@ export default props => {
           issues for the immediate neighbors</strong>
         </li>
         <li>
+          Some neighbors are reporting that <strong>the portable lights that are brought in by the City for games and practices are sometimes left on
+          until after 11 at night, and that they have had to go and turn them off themselves</strong>. The lights are pointed right at their houses and yards
+        </li>
+        <li>
           <strong>For some reason, the signs that say "No Animals in Park" point to <a href="http://qcode.us/codes/lahabra/view.php?topic=6-6_04-6_04_150&frames=on" title="Link to La Habra Municipal Code 6.04.150" target="_blank">La Habra Municipal Code 6.04.150</a></strong>,
           which states <em>"Quarantine" means isolation of a dog or other animal in an enclosure or other environment so that the dog or animal cannot be subject to other animals
           or unauthorized persons. (Ord. 1627 § 1, 2003)</em>
