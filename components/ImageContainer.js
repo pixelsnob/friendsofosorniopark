@@ -44,7 +44,7 @@ export default (props) => {
         }
         @media screen and (min-width: 1200px) {
           figure {
-            width: ${props.width || '40vw'};
+            width: ${props.width || '35vw'};
           }
         }
       `}</style>

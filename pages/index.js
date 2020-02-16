@@ -65,11 +65,11 @@ export default () => (
             According to public records, <strong>one La Habra area soccer team has been applying for a permit to use the field at Osornio Park for several years
             and has been denied every year. These records appear to show that the City has little interest in issuing a permit to any other team besides the Pumas</strong>
             
-            <ImageContainer src="IMG_20191212_154715.jpg" caption='Sign stating "Soccer Field by Permit Only" with a phone number to call, but public records show La Habra has no intention of letting other teams besides the Pumas play at Osornio Park'/>
+            <ImageContainer src="IMG_20191212_154715.jpg" caption='Sign stating "Soccer Field by Permit Only" with a phone number to call, but La Habra apparently has no intention of letting other teams besides the Pumas play at Osornio Park'/>
 
           </li> 
           <li>
-            <strong class="alarming">One of the members of the <a href="https://www.lahabracity.com/341/Community-Services-Commission" target="_blank">La Habra Community Services Commission</a> --
+            <strong>One of the members of the <a href="https://www.lahabracity.com/341/Community-Services-Commission" target="_blank">La Habra Community Services Commission</a> --
             the commission responsible for issuing field permits -- is married
             to the Pumas Vice President</strong>. According to a document
             titled <a href="https://www.lahabracity.com/DocumentCenter/View/6192/The-Job-of-the-Community-Services-Commission?bidId=" target="_blank">The Job of the Community Services Commission</a>, <em>"A
