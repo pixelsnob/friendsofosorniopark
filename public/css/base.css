@@ -1,8 +1,8 @@
 body {
   font-family: 'Montserrat';
-  font-size: 1.1rem;
-  line-height: 1.7;
-  padding: 10px;
+  font-size: 1.2rem;
+  line-height: 1.8  ;
+  padding: 30px;
   counter-reset: footnote;
 }
 a:link, a:visited, a:active, a:hover {
@@ -44,11 +44,14 @@ ul {
 }
 li {
   margin: 0;
-  padding: 0 0 15px 0;
+  padding: 0 0 12px 0;
 }
-ul li:last-of-type {
+ul ul {
+  padding-top: 12px;
+}
+/* ul li:last-of-type {
   padding-bottom: 0;
-}
+} */
 blockquote {
   background-color: #eee;
   margin-left: 20px;

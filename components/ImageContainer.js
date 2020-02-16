@@ -19,7 +19,7 @@ export default (props) => {
           float: right;
           clear: both;
           width: ${props.width || '50vw'};
-          margin: 20px 0 20px 20px;
+          margin: 30px 0 30px 30px;
           background: #eee;
           
         }

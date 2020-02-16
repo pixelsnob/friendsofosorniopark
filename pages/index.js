@@ -5,6 +5,11 @@ import FootnoteLink from '../components/FootnoteLink';
 import Head from '../components/Head';
 
 const summary = 'Friends of Osornio Park is a group of residents with a common goal: to encourage the City of La Habra to make Osornio Park a more welcoming place for the entire community. We are not affiliated with the City of La Habra.';
+const affiliatePolicyLink = 
+  <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">
+    City of La Habra Sports Affiliate Policy
+  </a>
+;
 
 export default () => (
   <Layout showBackToTopLink={true}>
@@ -46,10 +51,10 @@ export default () => (
       <article>
         <h2>Park Issues</h2>
         <ul>
-          <li>
+          {/* <li>
             <strong>Since 2011, people visiting the park with dogs have been approached by non-City officials threatening that the City of La Habra
             will cite them -- even when the park wasn't in use by anyone at all</strong>
-          </li>
+          </li> */}
           <li>
             <strong>The park gets closed every winter for maintenance, and is sometimes completely locked so that the public can't access it, but sports teams
             continue to hold practices and games, even recently, and after residents have complained multiple times</strong>
@@ -134,6 +139,34 @@ export default () => (
             </ul>
           </li>
           
+          {/* <li>google maps</li>
+
+          <li>pumas dont work with anyone</li> */}
+
+          <li>
+            In the section titled "Purpose of Policy" in the {affiliatePolicyLink}, it states
+            <em>"We expect that each affiliate will always be respectful to the neighbors, staff, and community as a whole"</em>. It also lists values
+            affiliates are expected to abide by, including <em>"actively engaging and collaborating with local resources ensuring that we are
+            contributing to the health of the community"</em> and <em>"promoting the community’s interest as our highest priority"</em>. The Pumas, instead of
+            working with the community, <strong>choose to take the forceful approach, using the power of the city government to implement policies that
+            promote their own interests:</strong>
+            <ul>
+              <li>
+                When there was reportedly an issue about animal waste in the park, instead of working with the community, the Pumas decided to take matters into their
+                own hands by approaching citizens to tell them that dogs were not allowed at Osornio Park, even though resdidents have been taking their dogs here for
+                years with no prior problems
+              </li>
+              <li>
+                After residents complained to the City, and wrote reviews on Google Maps, <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">the V.P. of the Pumas wrote a review of his own</a>,
+                blaming dog owners for not picking up after their dogs, and openly admitting that he influenced public policy by pushing the City of La Habra
+                to place "No Animals in Park" signs when before 2012, there were none
+              </li>
+            </ul>
+          </li>
+
+{/* <li>Please contact the City if you observe anytime an
+unorganized sports group appears to be using a facility governed by the policy for anything other
+than general public use. </li> */}
         </ul>
 
         {/* <ImageContainer src="IMG_20190128_133052.jpg" caption="Osornio Park locked and closed to the public"/> */}
@@ -162,7 +195,7 @@ export default () => (
         <p><strong><a rel="nofollow" href="https://www.change.org/p/return-osornio-park-to-the-community" target="_blank">Or sign the petition on change.org</a></strong></p>
       </article>
 
-      <article>
+      {/* <article>
         <h2>How to Get Involved</h2>
         <ul>
           <li>
@@ -182,7 +215,7 @@ export default () => (
             the <a href="https://www.lahabracity.com/321/Community-Services" target="_blank">La Habra Community Services Department</a>
           </li>
         </ul>
-      </article>
+      </article> */}
       
       <article>
         <h2>References</h2>
@@ -203,7 +236,7 @@ export default () => (
           </li>
 
           <li id="sports-affiliate-policy-page-27">
-            <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">City of La Habra Sports Affiliate Policy</a>, page 27
+            {affiliatePolicyLink}, page 27
           </li>
           <li id="city-council-minutes-page-4">
             October 1, 2018 <a href="http://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_10012018-1004" target="_blank">La Habra City Council Minutes</a>, page 4
