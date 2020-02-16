@@ -5,7 +5,7 @@ body {
   padding: 10px;
 }
 a:link, a:visited, a:active, a:hover {
-  color: green;
+  color: rgb(0, 109, 0);
   font-weight: bold;
 }
 a:hover {
@@ -15,7 +15,7 @@ nav a {
   text-decoration: none;
 }
 a.loud {
-  background-color: green;
+  background-color: rgb(0, 109, 0);
   color: white;
   padding: 1px 3px;
   text-decoration: none;
@@ -51,6 +51,10 @@ blockquote p:first-child {
   margin-top: 0;
 }
 
+/* .alarming {
+  font-style: italic;
+} */
+
 @media screen and (max-width: 768px) {
   ul {
     padding-left: 20px;
@@ -66,3 +70,4 @@ blockquote p:first-child {
     margin: 0;
   }
 }
+

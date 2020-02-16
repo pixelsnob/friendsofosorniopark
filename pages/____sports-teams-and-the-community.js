@@ -62,7 +62,6 @@ export default () => (
           on <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">his review of Osornio Park on Google Maps, where he blames dog owners for
           not picking up after their dogs</a></strong> 
           <ImageContainer src="cal-south-field-screenshot.jpg" caption='"No dogs allowed" repeated twice and in all caps in the Coast Soccer League listing for Osornio Park'/>
-
         </li>
         <li>
           <strong>The Pumas repeatedly play unauthorized games and hold unauthorized practices, even recently,</strong> on dates when

@@ -53,7 +53,8 @@ export default () => (
           </li>
           <li>
             <strong>The park gets closed every winter for maintenance, and is sometimes completely locked so that the public can't access it, but sports teams
-            continue to hold practices and games, as recent as December, 2019</strong>
+            continue to hold practices and games, even recently, and after residents have complained multiple times</strong>
+
             {/*}. See <a href="/sports-teams-and-the-community">Sports Teams and the Community</a> for more details*/}
           </li>
           <li>
@@ -63,10 +64,19 @@ export default () => (
           <li>
             According to public records, <strong>one La Habra area soccer team has been applying for a permit to use the field at Osornio Park for several years
             and has been denied every year. These records appear to show that the City has little interest in issuing a permit to any other team besides the Pumas</strong>
+            
             <ImageContainer src="IMG_20191212_154715.jpg" caption='Sign stating "Soccer Field by Permit Only" with a phone number to call, but public records show La Habra has no intention of letting other teams besides the Pumas play at Osornio Park'/>
 
           </li> 
-          
+          <li>
+            <strong class="alarming">One of the members of the <a href="https://www.lahabracity.com/341/Community-Services-Commission" target="_blank">La Habra Community Services Commission</a> --
+            the commission responsible for issuing field permits -- is married
+            to the Pumas Vice President</strong>. According to a document
+            titled <a href="https://www.lahabracity.com/DocumentCenter/View/6192/The-Job-of-the-Community-Services-Commission?bidId=" target="_blank">The Job of the Community Services Commission</a>, <em>"A
+            Community Services Commissioner is an individual who can serve the long-range interests of the La Habra community, who is unbound by election promises, political expediency, or narrow
+            interests"</em>, <strong class="alarming">but it's hard to see how this person can be truly objective about who else gets to play at Osornio Park considering their level of involvement with the Pumas</strong>
+          </li>
+
           <li>
             <strong>For some reason, the signs that say "No Animals in Park" point to <a href="http://qcode.us/codes/lahabra/view.php?topic=6-6_04-6_04_150&frames=on" title="Link to La Habra Municipal Code 6.04.150" target="_blank">La Habra Municipal Code 6.04.150</a></strong>,
             which states <em>"Quarantine" means isolation of a dog or other animal in an enclosure or other environment so that the dog or animal cannot be subject to other animals
@@ -80,10 +90,10 @@ export default () => (
             <sup><a href="#citation-5">[5]</a></sup>
           </li>
           <li>
-            During a meeting of the City Council on October 1, 2018,
+            During a meeting of the City Council on October 1, 2018, {/**cite needed */}
             a resolution was passed allowing "certain City parks to be posted for access by dogs on leash". Osornio Park, as well as nearby La Bonita Park, were excluded,
             and the reason given was <strong>"due to active youth sports"</strong>, which is vague and does not specify <strong>why dogs on leashes
-            are not allowed at the park when it is not in use by active youth sports</strong>
+            are not allowed at the park when it is not in use by active youth sports<sup><a href="#citation-6">[6]</a></sup></strong>
             
             {/**************** citation needed ****************** */}
             
@@ -101,15 +111,15 @@ export default () => (
             </blockquote> */}
           </li>
           <li>
-            <strong>Since at least 2014, the City of La Habra has been talking about a dog park at Vista Grande Park.<sup><a href="#citation-6">[6]</a></sup></strong> But
-            Vista Grande Park <a href="https://www.google.com/maps/place/Vista+Grande+Park/@33.9228485,-117.9600172,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd2ac57cc350cd:0x60c9cd3b90e08d70!8m2!3d33.9228441!4d-117.9578285" target="_blank">(Google Maps)</a>, a former waste landfill<sup><a href="#citation-7">[7]</a></sup>, {/*that the City wants to develop into more sports facilities. */}
+            <strong>Since at least 2014, the City of La Habra has been talking about a dog park at Vista Grande Park.<sup><a href="#citation-7">[7]</a></sup></strong> But
+            Vista Grande Park <a href="https://www.google.com/maps/place/Vista+Grande+Park/@33.9228485,-117.9600172,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd2ac57cc350cd:0x60c9cd3b90e08d70!8m2!3d33.9228441!4d-117.9578285" target="_blank">(Google Maps)</a>, a former waste landfill<sup><a href="#citation-8">[8]</a></sup>, {/*that the City wants to develop into more sports facilities. */}
             is at least 2 miles from Osornio Park and its surrounding residents.
             And close-by La Bonita Park <a href="https://www.google.com/maps/place/La+Bonita+Park/@33.937307,-117.9640657,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52dde790b0b:0xa224518a83c83eda!8m2!3d33.937307!4d-117.961877" target="_blank">(Google Maps)</a> is
             also not dog-friendly. <strong>What we need is a dog-friendly option for Osornio Park that does not require a 2-mile drive to another part of La Habra</strong> 
             <ImageContainer src="vista-grande-plans.jpg" caption="Proposed dog park at Vista Grande Park, circled in red"/>
           </li>
           <li>
-            <strong>The proposed dog park at Vista Grande is not much larger than a basketball court<sup><a href="#citation-8">[8]</a></sup></strong>
+            <strong>The proposed dog park at Vista Grande is not much larger than a basketball court<sup><a href="#citation-9">[9]</a></sup></strong>
           </li>
           <li>
             Community Outreach Meetings were held in the summer of 2019 to gather input into how State of California grant funds could be used to improve certain parks,
@@ -117,7 +127,7 @@ export default () => (
             <ImageContainer src="IMG_20190715_114402.jpg" caption='"City of La Habra Community Outreach for New Park Improvements" flyer, June, 2019'/> If
             grant money is awarded, Osornio Park could get improvements geared towards the community. 
             <strong> But the La Habra Pumas also had a representative at this meeting, showing that if the community remains
-            silent, youth sports will continue to influence how our local parks are utilized and developed</strong>
+            silent, youth sports will continue to control how our local parks are utilized and developed, and who gets to access them</strong>
           </li>
 
           <li>
@@ -139,10 +149,10 @@ export default () => (
               </li>
             </ul>
           </li>
-
+          
         </ul>
 
-        <ImageContainer src="IMG_20190128_133052.jpg" caption="Osornio Park locked and closed to the public"/>
+        {/* <ImageContainer src="IMG_20190128_133052.jpg" caption="Osornio Park locked and closed to the public"/> */}
 
       </article>
       
@@ -213,13 +223,16 @@ export default () => (
             {/** page needed */}
           </li>
           <li id="citation-6">
-            March 3, 2014 <a href="https://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_03032014-17" target="_blank">City of La Habra City Council Minutes</a>, page 5
+            October 1, 2018 <a href="http://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_10012018-1004" target="_blank">La Habra City Council Minutes</a>, page 4
           </li>
           <li id="citation-7">
-            August 1, 2019 <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">City of La Habra Planning Commission Agenda Report</a>, page 3
+            March 3, 2014 <a href="https://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_03032014-17" target="_blank">La Habra City Council Minutes</a>, page 5
           </li>
           <li id="citation-8">
-            <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">Vista Grande Public Plans</a>, an attachment
+            August 1, 2019 <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">La Habra Planning Commission Agenda Report</a>, page 3
+          </li>
+          <li id="citation-9">
+            <a href="https://www.lahabracity.com/DocumentCenter/View/9515/Vista-Grande-Park-Att-3---Project-Plans" target="_blank">Vista Grande Public Plans</a>, an attachment
             to the <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">Planning Commission Agenda Report</a>, August 1, 2019
           </li>
 
