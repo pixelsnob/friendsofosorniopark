@@ -23,6 +23,8 @@ export default () => (
         padding: 2px;
         margin: 0;
         line-height: 2;
+        width: 28%;
+        text-align: center;
       }
       a:link, a:visited, a:active, a:hover {
         text-decoration: none;
@@ -37,6 +39,7 @@ export default () => (
         li {
           text-align: center;
           line-height: 1.7;
+          width: auto;
         }
         a:link, a:visited, a:active, a:hover {
           font-size: 1.2rem;
