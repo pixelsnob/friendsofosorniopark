@@ -63,7 +63,7 @@ export default () => (
           <li>
             According to public records, <strong>one La Habra area soccer team has been applying for a permit to use the field at Osornio Park for several years
             and has been denied every year. These records appear to show that the City has little interest in issuing a permit to any other team besides the Pumas</strong>
-            <ImageContainer src="IMG_20191212_154715.jpg" caption='Sign stating "Soccer Field by Permit Only" with a phone number to call, but public records show La Habra has no intention of letting anyone else play at Osornio Park except for the Pumas'/>
+            <ImageContainer src="IMG_20191212_154715.jpg" caption='Sign stating "Soccer Field by Permit Only" with a phone number to call, but public records show La Habra has no intention of letting other teams besides the Pumas play at Osornio Park'/>
 
           </li> 
           
@@ -119,6 +119,27 @@ export default () => (
             <strong> But the La Habra Pumas also had a representative at this meeting, showing that if the community remains
             silent, youth sports will continue to influence how our local parks are utilized and developed</strong>
           </li>
+
+          <li>
+            <strong>The Pumas repeatedly play unauthorized games and hold unauthorized practices, even recently,</strong> on dates when
+            the <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">City of La Habra Sports Affiliate Policy</a> says
+            Osornio Park is closed for the season:
+            <ul>
+              
+              <li>
+                There is a <a href="https://www.facebook.com/2298324260383506/videos/550781629096486/" target="_blank">video posted on the Pumas La Habra Facebook page</a> that shows a practice being held, and portable lighting in the background. The video
+                is dated December 6, 2019
+                <ImageContainer src="pumas-video-december-6.jpg" caption="Video of practice by the La Habra Pumas at Osornio Park, December 6, 2019"/>
+
+              </li>
+              <li>
+                On December 12, 2019, there was a youth soccer team practice in the evening, using City portable lights. But the City's Recreation Department
+                says they don't know who used the park that night
+                <ImageContainer src="IMG_20191212_181502.jpg" caption="Night practice by soccer team at Osornio Park, December 12, 2019"/>
+              </li>
+            </ul>
+          </li>
+
         </ul>
 
         <ImageContainer src="IMG_20190128_133052.jpg" caption="Osornio Park locked and closed to the public"/>
@@ -152,7 +173,7 @@ export default () => (
         <ul>
           <li>
             There are several reviews by residents on <a target="_blank" href="https://www.google.com/maps/place/Osornio+Park/@33.945514,-117.9657207,15z/data=!4m5!3m4!1s0x0:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207">the Osornio Park listing on Google Maps</a> that
-            talk about these issues. There is also <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">a review by the head of the La Habra Pumas soccer team, where he blames
+            talk about these issues. There is also <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">a review by the V.P. of the La Habra Pumas soccer team, where he blames
             "pet owners" for dog waste</a>. Please read these reviews and consider leaving a review of your own if you have encountered issues
             at Osornio Park
           </li>

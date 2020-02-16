@@ -2,8 +2,6 @@
 export default () => (
   <nav className="noprint">
     <ul>
-      {/* <li><a rel="prefetch" href="/issues">Osornio Park Issues</a></li>
-      <li><a rel="prefetch" href="/sports-teams-and-the-community">Sports Teams and the Community</a></li> */}
       <li><a rel="prefetch" href="/petition">Osornio Park Petition</a></li>
       <li><a rel="prefetch" href="/contact">Contact</a></li>
 

@@ -20,14 +20,14 @@ export default (props) => {
           clear: both;
           width: ${props.width || '50vw'};
           margin: 20px 0 20px 20px;
-          
+          background: #eee;
           
         }
         figcaption {
           font-size: 0.9rem;
           line-height: 1.4;
           margin: 0;
-          padding: 0;
+          padding: 5px 10px 15px 10px;
           font-weight: bold;
         }
         img {
