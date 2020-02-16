@@ -54,11 +54,11 @@ export default () => (
       
       <ul>
         <li>
-          <strong>The Pumas president has kicked out park visitors himself, threatening the City on them for bringing dogs to Osornio Park</strong>
+          <strong>The Pumas vice president has kicked out park visitors himself, threatening the City on them for bringing dogs to Osornio Park</strong>
         </li>
         <li>
         <strong>
-          The Pumas president has voiced his anti-dog stance
+          The Pumas vice president has voiced his anti-dog stance
           on <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">his review of Osornio Park on Google Maps, where he blames dog owners for
           not picking up after their dogs</a></strong> 
           <ImageContainer src="cal-south-field-screenshot.jpg" caption='"No dogs allowed" repeated twice and in all caps in the Coast Soccer League listing for Osornio Park'/>
@@ -83,6 +83,7 @@ export default () => (
             </li>
           </ul>
         </li>
+    
       </ul>
     </article>
   </Layout>
