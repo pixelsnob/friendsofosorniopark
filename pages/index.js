@@ -1,7 +1,7 @@
 
 import Layout from '../components/Layout';
 import ImageContainer from '../components/ImageContainer';
-//import IssuesList from '../components/IssuesList2';
+import FootnoteLink from '../components/FootnoteLink';
 import Head from '../components/Head';
 
 const summary = 'Friends of Osornio Park is a group of residents with a common goal: to encourage the City of La Habra to make Osornio Park a more welcoming place for the entire community. We are not affiliated with the City of La Habra.';
@@ -20,20 +20,19 @@ export default () => (
         <p>
           Osornio Park is a public park about a half mile north of Whittier Blvd on Hacienda Road in
           La Habra, California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank">(Google Maps)</a>. The park
-          used to be the playground and sports field for Hacienda School, until the school closed in 1989<sup><a href="#citation-1">[1]</a></sup>.
+          used to be the playground and sports field for Hacienda School, until the school closed in 1989<FootnoteLink name="hacienda-school"/>.
         </p>
 
         <p>
-          In 2001, the City of La Habra dedicated the park to Michael Osornio, who was killed by a drunk driver while on duty in 1994<sup><a href="#citation-2">[2]</a></sup>.
+          In 2001, the City of La Habra dedicated the park to Michael Osornio, who was killed by a drunk driver while on duty in 1994<FootnoteLink name="la-times-article"/>.
           The park remained basically untouched, and looked like the schoolyard that it once was until about 2010. It was enjoyed by residents,
           who would gather in the only open space in this area not already taken up by sports facilities, schools, or businesses.
         </p>
         <ImageContainer src="IMG_20191105_151138.jpg" caption="Memorial for Michael A. Osornio at Osornio Park"/>
 
-
         <p>
-          In 2012, the City of La Habra decided to dedicate the park to the Pumas, a City-affiliated youth soccer team<sup><a href="#citation-3">[3]</a></sup>. The Pumas were awarded
-          around $100,000 in state parks funds<sup><a href="#citation-4">[4]</a></sup>, which they used to convert Osornio Park into a soccer facility. Trees were removed, as well
+          In 2012, the City of La Habra decided to dedicate the park to the Pumas, a City-affiliated youth soccer team<FootnoteLink name="opening-ceremony"/>. The Pumas were awarded
+          around $100,000 in state parks funds<FootnoteLink name="park-grants"/>, which they used to convert Osornio Park into a soccer facility. Trees were removed, as well
           as a walking trail and exercise equipment that residents would use. Fences and locking gates were added, as well as "No Animals in Park"
           signs.
         </p>
@@ -55,7 +54,6 @@ export default () => (
             <strong>The park gets closed every winter for maintenance, and is sometimes completely locked so that the public can't access it, but sports teams
             continue to hold practices and games, even recently, and after residents have complained multiple times</strong>
 
-            {/*}. See <a href="/sports-teams-and-the-community">Sports Teams and the Community</a> for more details*/}
           </li>
           <li>
             There are only two parking spots for the entire park, so <strong>sports team parents park on the basketball court, and have caused parking
@@ -74,7 +72,7 @@ export default () => (
             to the Pumas Vice President</strong>. According to a document
             titled <a href="https://www.lahabracity.com/DocumentCenter/View/6192/The-Job-of-the-Community-Services-Commission?bidId=" target="_blank">The Job of the Community Services Commission</a>, <em>"A
             Community Services Commissioner is an individual who can serve the long-range interests of the La Habra community, who is unbound by election promises, political expediency, or narrow
-            interests"</em>, <strong class="alarming">but it's hard to see how this person can be truly objective about who else gets to play at Osornio Park considering their level of involvement with the Pumas</strong>
+            interests"</em>, <strong className="alarming">but it's hard to see how this person can be truly objective about who else gets to play at Osornio Park considering their level of involvement with the Pumas</strong>
           </li>
 
           <li>
@@ -87,39 +85,25 @@ export default () => (
             Some neighbors are reporting that <strong>the portable lights that are brought in by the City for games and practices are sometimes left on
             until after 11 at night, and that they have had to go and turn them off themselves</strong>, even though the hours of operation for the park
             are "...Monday through Friday 8:00 a.m. to dusk, Saturday and Sundays 9:00 a.m. to dusk."
-            <sup><a href="#citation-5">[5]</a></sup>
+            <FootnoteLink name="sports-affiliate-policy-page-27"/>
           </li>
           <li>
-            During a meeting of the City Council on October 1, 2018, {/**cite needed */}
+            During a meeting of the City Council on October 1, 2018,
             a resolution was passed allowing "certain City parks to be posted for access by dogs on leash". Osornio Park, as well as nearby La Bonita Park, were excluded,
             and the reason given was <strong>"due to active youth sports"</strong>, which is vague and does not specify <strong>why dogs on leashes
-            are not allowed at the park when it is not in use by active youth sports<sup><a href="#citation-6">[6]</a></sup></strong>
+            are not allowed at the park when it is not in use by active youth sports<FootnoteLink name="city-council-minutes-page-4"/></strong>
             
-            {/**************** citation needed ****************** */}
-            
-            {/* <blockquote>
-              <p>Public Works Director Saykali presented the staff report. He reported that the purpose of the
-              resolution was to designate certain City parks to be posted for access by dogs on leash as follows:
-              Brio, Constitution Plaza, Corona, Descanso, El Centro, Guadalupe, Las Lomas, Leslie, Loma
-              Norte, Loma Verde, Mahoney, Montwood, Oeste, Old Reservoir, Richard’s, San Miguel De
-              Allende, Terazza, Vista De Valle-East, Vista De Valle-West, and Vista Grande. <strong>He stated that
-              due to active youth sports, staff recommended the following parks be designated as prohibited
-              for access and use by dogs: Estelli, La Bonita, Portola, and Osornio.</strong></p>
-              <footer>
-                October 1, 2018 <a href="http://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_10012018-1004" target="_blank">City Council Minutes</a>, page 4
-              </footer>
-            </blockquote> */}
           </li>
           <li>
-            <strong>Since at least 2014, the City of La Habra has been talking about a dog park at Vista Grande Park.<sup><a href="#citation-7">[7]</a></sup></strong> But
-            Vista Grande Park <a href="https://www.google.com/maps/place/Vista+Grande+Park/@33.9228485,-117.9600172,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd2ac57cc350cd:0x60c9cd3b90e08d70!8m2!3d33.9228441!4d-117.9578285" target="_blank">(Google Maps)</a>, a former waste landfill<sup><a href="#citation-8">[8]</a></sup>, {/*that the City wants to develop into more sports facilities. */}
+            <strong>Since at least 2014, the City of La Habra has been talking about a dog park at Vista Grande Park.<FootnoteLink name="city-council-minutes-page-5"/></strong> But
+            Vista Grande Park <a href="https://www.google.com/maps/place/Vista+Grande+Park/@33.9228485,-117.9600172,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd2ac57cc350cd:0x60c9cd3b90e08d70!8m2!3d33.9228441!4d-117.9578285" target="_blank">(Google Maps)</a>, a former waste landfill<FootnoteLink name="planning-commission-report"/>, {/*that the City wants to develop into more sports facilities. */}
             is at least 2 miles from Osornio Park and its surrounding residents.
             And close-by La Bonita Park <a href="https://www.google.com/maps/place/La+Bonita+Park/@33.937307,-117.9640657,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52dde790b0b:0xa224518a83c83eda!8m2!3d33.937307!4d-117.961877" target="_blank">(Google Maps)</a> is
             also not dog-friendly. <strong>What we need is a dog-friendly option for Osornio Park that does not require a 2-mile drive to another part of La Habra</strong> 
             <ImageContainer src="vista-grande-plans.jpg" caption="Proposed dog park at Vista Grande Park, circled in red"/>
           </li>
           <li>
-            <strong>The proposed dog park at Vista Grande is not much larger than a basketball court<sup><a href="#citation-9">[9]</a></sup></strong>
+            <strong>The proposed dog park at Vista Grande is not much larger than a basketball court<FootnoteLink name="vista-grande-park-plans"/></strong>
           </li>
           <li>
             Community Outreach Meetings were held in the summer of 2019 to gather input into how State of California grant funds could be used to improve certain parks,
@@ -203,35 +187,34 @@ export default () => (
       <article>
         <h2>References</h2>
           <ol>
-          <li id="citation-1">
+          <li id="hacienda-school">
             <a target="_blank" href="https://www.cde.ca.gov/schooldirectory/details?cdscode=19647666020143">Hacienda School</a> -
             California School Directory - 
             California Dept. of Education
           </li>
-          <li id="citation-2">
+          <li id="la-times-article">
             <a target="_blank" href="https://www.latimes.com/archives/la-xpm-2001-may-02-me-58275-story.html">"La Habra to Rename Park After Officer"</a> - Los Angeles Times - May 2, 2001
           </li>
-          <li id="citation-3">
+          <li id="opening-ceremony">
             <a target="_blank" href="https://www.flickr.com/photos/calsouthsoccerfoundation/6646253811/in/photostream/">Osornio Park Opening Ceremony 38</a> - Cal South Youth Soccer Foundation
           </li>
-          <li id="citation-4">
+          <li id="park-grants">
             <a target="_blank" href="https://www.parksforcalifornia.org/grants">Grants</a> - Parks for All Californians 
           </li>
 
-          <li id="citation-5">
-            <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">City of La Habra Sports Affiliate Policy</a>
-            {/** page needed */}
+          <li id="sports-affiliate-policy-page-27">
+            <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">City of La Habra Sports Affiliate Policy</a>, page 27
           </li>
-          <li id="citation-6">
+          <li id="city-council-minutes-page-4">
             October 1, 2018 <a href="http://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_10012018-1004" target="_blank">La Habra City Council Minutes</a>, page 4
           </li>
-          <li id="citation-7">
+          <li id="city-council-minutes-page-5">
             March 3, 2014 <a href="https://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_03032014-17" target="_blank">La Habra City Council Minutes</a>, page 5
           </li>
-          <li id="citation-8">
+          <li id="planning-commission-report">
             August 1, 2019 <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">La Habra Planning Commission Agenda Report</a>, page 3
           </li>
-          <li id="citation-9">
+          <li id="vista-grande-park-plans">
             <a href="https://www.lahabracity.com/DocumentCenter/View/9515/Vista-Grande-Park-Att-3---Project-Plans" target="_blank">Vista Grande Public Plans</a>, an attachment
             to the <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">Planning Commission Agenda Report</a>, August 1, 2019
           </li>
