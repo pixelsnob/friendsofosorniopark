@@ -4,7 +4,7 @@ import ImageContainer from '../components/ImageContainer';
 import FootnoteLink from '../components/FootnoteLink';
 import Head from '../components/Head';
 
-const summary = 'Friends of Osornio Park is a group of residents with a common goal: to encourage the City of La Habra to make Osornio Park a more welcoming place for the entire community. We are not affiliated with the City of La Habra.';
+const summary = 'Friends of Osornio Park is a group of residents with a common goal: to help make Osornio Park a more welcoming place for the entire community. We are not affiliated with the City of La Habra.';
 const affiliatePolicyLink = 
   <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">
     City of La Habra Sports Affiliate Policy
@@ -42,10 +42,6 @@ export default () => (
           signs.
         </p>
 
-        <ImageContainer src="IMG_20191012_145835.jpg" caption="Osornio Park: the least friendly park in Southern California"/>
-
-        {/* <ImageContainer src={'IMG_20191012_145954.jpg'} caption='"No Animals in Park" sign at Osornio Park'/> */}
-
       </article>
 
       <article>
@@ -58,11 +54,17 @@ export default () => (
           <li>
             <strong>The park gets closed every winter for maintenance, and is sometimes completely locked so that the public can't access it, but sports teams
             continue to hold practices and games, even recently, and after residents have complained multiple times</strong>
-
+            <ImageContainer src={'IMG_20190128_133052.jpg'} caption='Osornio Park Locked and Closed to the Public'/>
+            
           </li>
           <li>
             There are only two parking spots for the entire park, so <strong>sports team parents park on the basketball court, and have caused parking
-            issues for the immediate neighbors</strong>
+            issues for the immediate neighbors</strong>. The signs in the adjacent parking lot &mdash; which is actually in the City of La Habra Heights
+            &mdash; <strong>clearly say that parking is for the preschool and school district next door, but sports teams park there anyway</strong>
+            <ImageContainer src="PSX_20191026_203307.jpg" caption="Sports team parents parking wherever they like, 2019"/>
+
+            {/* cite??? */}
+            
           </li>
           <li>
             According to public records, <strong>one La Habra area soccer team has been applying for a permit to use the field at Osornio Park for several years
@@ -72,32 +74,38 @@ export default () => (
 
           </li> 
           <li>
-            <strong>One of the members of the <a href="https://www.lahabracity.com/341/Community-Services-Commission" target="_blank">La Habra Community Services Commission</a> --
-            the commission responsible for issuing field permits -- is married
+            <strong>One of the members of the <a href="https://www.lahabracity.com/341/Community-Services-Commission" target="_blank">La Habra Community Services Commission</a> &mdash;
+            the commission responsible for issuing field permits &mdash; is married
             to the Pumas Vice President</strong>. According to a document
-            titled <a href="https://www.lahabracity.com/DocumentCenter/View/6192/The-Job-of-the-Community-Services-Commission?bidId=" target="_blank">The Job of the Community Services Commission</a>, <em>"A
+            titled <a href="https://www.lahabracity.com/DocumentCenter/View/6192/The-Job-of-the-Community-Services-Commission?bidId=" target="_blank">The Job of the Community Services Commission</a>, "A
             Community Services Commissioner is an individual who can serve the long-range interests of the La Habra community, who is unbound by election promises, political expediency, or narrow
-            interests"</em>, <strong className="alarming">but it's hard to see how this person can be truly objective about who else gets to play at Osornio Park considering their level of involvement with the Pumas</strong>
+            interests", <strong className="alarming">but it's hard to see how someone this involved with the only soccer team allowed to play at Osornio Park can make objective and impartial decisions about who else gets to play there</strong>
           </li>
 
           <li>
             <strong>For some reason, the signs that say "No Animals in Park" point to <a href="http://qcode.us/codes/lahabra/view.php?topic=6-6_04-6_04_150&frames=on" title="Link to La Habra Municipal Code 6.04.150" target="_blank">La Habra Municipal Code 6.04.150</a></strong>,
-            which states <em>"Quarantine" means isolation of a dog or other animal in an enclosure or other environment so that the dog or animal cannot be subject to other animals
-            or unauthorized persons. (Ord. 1627 § 1, 2003)</em>
+            which states "Quarantine means isolation of a dog or other animal in an enclosure or other environment so that the dog or animal cannot be subject to other animals
+            or unauthorized persons. (Ord. 1627 § 1, 2003)"
+            <ImageContainer src={'IMG_20191012_145954.jpg'} caption='"No Animals in Park" sign at Osornio Park'/>
           </li>
           
+          
+
           <li>
             Some neighbors are reporting that <strong>the portable lights that are brought in by the City for games and practices are sometimes left on
             until after 11 at night, and that they have had to go and turn them off themselves</strong>, even though the hours of operation for the park
             are "...Monday through Friday 8:00 a.m. to dusk, Saturday and Sundays 9:00 a.m. to dusk."
             <FootnoteLink name="sports-affiliate-policy-page-27"/>
+
+            <ImageContainer src="IMG_20191212_181502.jpg" caption="Night practice by soccer team at Osornio Park, December 12, 2019, even though the park was closed for maintenance"/>
+
           </li>
           <li>
             During a meeting of the City Council on October 1, 2018,
             a resolution was passed allowing "certain City parks to be posted for access by dogs on leash". Osornio Park, as well as nearby La Bonita Park, were excluded,
             and the reason given was <strong>"due to active youth sports"</strong>, which is vague and does not specify <strong>why dogs on leashes
             are not allowed at the park when it is not in use by active youth sports<FootnoteLink name="city-council-minutes-page-4"/></strong>
-            
+            <ImageContainer src="IMG_20191012_145835.jpg" caption="Osornio Park: the least friendly park in Southern California"/>
           </li>
           <li>
             <strong>Since at least 2014, the City of La Habra has been talking about a dog park at Vista Grande Park.<FootnoteLink name="city-council-minutes-page-5"/></strong> But
@@ -105,10 +113,11 @@ export default () => (
             is at least 2 miles from Osornio Park and its surrounding residents.
             And close-by La Bonita Park <a href="https://www.google.com/maps/place/La+Bonita+Park/@33.937307,-117.9640657,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52dde790b0b:0xa224518a83c83eda!8m2!3d33.937307!4d-117.961877" target="_blank">(Google Maps)</a> is
             also not dog-friendly. <strong>What we need is a dog-friendly option for Osornio Park that does not require a 2-mile drive to another part of La Habra</strong> 
-            <ImageContainer src="vista-grande-plans.jpg" caption="Proposed dog park at Vista Grande Park, circled in red"/>
           </li>
           <li>
             <strong>The proposed dog park at Vista Grande is not much larger than a basketball court<FootnoteLink name="vista-grande-park-plans"/></strong>
+            <ImageContainer src="vista-grande-plans.jpg" caption="Proposed dog park at Vista Grande Park, circled in red"/>
+
           </li>
           <li>
             Community Outreach Meetings were held in the summer of 2019 to gather input into how State of California grant funds could be used to improve certain parks,
@@ -128,13 +137,13 @@ export default () => (
               <li>
                 There is a <a href="https://www.facebook.com/2298324260383506/videos/550781629096486/" target="_blank">video posted on the Pumas La Habra Facebook page</a> that shows a practice being held, and portable lighting in the background. The video
                 is dated December 6, 2019
-                <ImageContainer src="pumas-video-december-6.jpg" caption="Video of practice by the La Habra Pumas at Osornio Park, December 6, 2019"/>
+                {/* <ImageContainer src="pumas-video-december-6.jpg" caption="Video of practice by the La Habra Pumas at Osornio Park, December 6, 2019, even though the park was closed for maintenance"/> */}
 
               </li>
               <li>
                 On December 12, 2019, there was a youth soccer team practice in the evening, using City portable lights. But the City's Recreation Department
                 says they don't know who used the park that night
-                <ImageContainer src="IMG_20191212_181502.jpg" caption="Night practice by soccer team at Osornio Park, December 12, 2019"/>
+                {/** mention public records request */}
               </li>
             </ul>
           </li>
@@ -144,24 +153,42 @@ export default () => (
           <li>pumas dont work with anyone</li> */}
 
           <li>
-            In the section titled "Purpose of Policy" in the {affiliatePolicyLink}, it states
-            <em>"We expect that each affiliate will always be respectful to the neighbors, staff, and community as a whole"</em>. It also lists values
-            affiliates are expected to abide by, including <em>"actively engaging and collaborating with local resources ensuring that we are
-            contributing to the health of the community"</em> and <em>"promoting the community’s interest as our highest priority"</em>. The Pumas, instead of
-            working with the community, <strong>choose to take the forceful approach, using the power of the city government to implement policies that
-            promote their own interests:</strong>
+            In the section titled "Purpose of Policy" of the {affiliatePolicyLink}, it states
+            "we expect that each affiliate will always be respectful to the neighbors, staff, and community as a whole". It also lists values
+            affiliates are expected to abide by, including "actively engaging and collaborating with local resources ensuring that we are
+            contributing to the health of the community" and "promoting the community’s interest as our highest priority". The Pumas, instead of
+            working with the community, <strong>choose to take the forceful approach, using the power of city government to implement policies that
+            promote their own interests, and ignoring the needs of the neighboring community</strong>
             <ul>
               <li>
-                When there was reportedly an issue about animal waste in the park, instead of working with the community, the Pumas decided to take matters into their
-                own hands by approaching citizens to tell them that dogs were not allowed at Osornio Park, even though resdidents have been taking their dogs here for
-                years with no prior problems
+                When there was reportedly an issue about animal waste in the park, instead of working with the community, <strong>the Pumas decided to take matters into their
+                own hands by approaching citizens to tell them that dogs were not allowed at Osornio Park and that the City would ticket them, even though resdidents have been taking their dogs here for
+                years with no problems</strong>
               </li>
               <li>
-                After residents complained to the City, and wrote reviews on Google Maps, <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">the V.P. of the Pumas wrote a review of his own</a>,
-                blaming dog owners for not picking up after their dogs, and openly admitting that he influenced public policy by pushing the City of La Habra
-                to place "No Animals in Park" signs when before 2012, there were none
+                After residents complained to the City, and wrote reviews on Google Maps about the park being taken over, <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">the V.P. of the Pumas wrote a review of his own</a>,
+                blaming dog owners for not picking up after their dogs, and admitting that <strong>he was the one who pushed for "No Animals in Park" to be
+                installed when the park was converted to a soccer field</strong>
+              </li>
+              <li>Similarly, sports teams did not like that someone was playing golf, so they had "No Golf" signs put up by the City</li>
+              <li>
+                When the Pumas secured a State Parks grant for improvements to Osornio Park, <strong>they made all of the improvements for the purposes of
+                soccer, but removed an exercise trail residents used to use, and started locking the park to keep other teams out. There was no effort spent on making the park
+                better for the community, and no effort made to include residents in any of their plans</strong>
+
+                {/* drone shots */}
+
               </li>
             </ul>
+          </li>
+          
+          <li>
+            <strong>There is confusion about what Osornio Park is to the public.</strong> Some petition signers thought that
+            Osornio Park was a private space, and that it was owned by one person who rents the space out to other teams. To make matters worse,
+            the City of La Habra and others like to refer to Osornio Park as a "sports park", but <strong>the term "sports park" has no special meaning</strong>, even
+            though it falsely seems to imply that the City's sports teams have priority over the public when it comes to who can access and use a public space
+            
+            {/** Cite? */}
           </li>
 
 {/* <li>Please contact the City if you observe anytime an
@@ -194,28 +221,6 @@ than general public use. </li> */}
         
         <p><strong><a rel="nofollow" href="https://www.change.org/p/return-osornio-park-to-the-community" target="_blank">Or sign the petition on change.org</a></strong></p>
       </article>
-
-      {/* <article>
-        <h2>How to Get Involved</h2>
-        <ul>
-          <li>
-            There are several reviews by residents on <a target="_blank" href="https://www.google.com/maps/place/Osornio+Park/@33.945514,-117.9657207,15z/data=!4m5!3m4!1s0x0:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207">the Osornio Park listing on Google Maps</a> that
-            talk about these issues. There is also <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">a review by the V.P. of the La Habra Pumas soccer team, where he blames
-            "pet owners" for dog waste</a>. Please read these reviews and consider leaving a review of your own if you have encountered issues
-            at Osornio Park
-          </li>
-
-          <li>
-            If you have pictures of Osornio Park that you would like to share, especially those taken before the soccer remodel, please let us know
-            at <a href="mailto:info@friendsofosorniopark.org">info@friendsofosorniopark.org</a>
-          </li>
-
-          <li>
-            Voice your concerns to the City by contacting the Recreation Division of
-            the <a href="https://www.lahabracity.com/321/Community-Services" target="_blank">La Habra Community Services Department</a>
-          </li>
-        </ul>
-      </article> */}
       
       <article>
         <h2>References</h2>
