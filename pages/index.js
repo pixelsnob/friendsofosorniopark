@@ -54,7 +54,7 @@ export default () => (
           <li>
             <strong>The park gets closed every winter for maintenance, and is sometimes completely locked so that the public can't access it, but sports teams
             continue to hold practices and games, even recently, and after residents have complained multiple times</strong>
-            <ImageContainer src={'IMG_20190128_133052.jpg'} caption='Osornio Park Locked and Closed to the Public'/>
+            <ImageContainer src={'IMG_20190128_133052.jpg'} caption='Osornio Park locked and closed to the public'/>
             
           </li>
           <li>
@@ -124,11 +124,14 @@ export default () => (
             including Osornio Park.
             <ImageContainer src="IMG_20190715_114402.jpg" caption='"City of La Habra Community Outreach for New Park Improvements" flyer, June, 2019'/> If
             grant money is awarded, Osornio Park could get improvements geared towards the community. 
-            <strong> But the La Habra Pumas also had a representative at this meeting, showing that if the community remains
-            silent, youth sports will continue to control how our local parks are utilized and developed, and who gets to access them</strong>
+            <strong className="alarming"> But the La Habra Pumas heavily influenced the process and ultimately decided which improvements and ideas got submitted to the state in
+            the final grant application
+            
+           
+            </strong>
             <ImageContainer src="osornio-improvements-final.jpg" caption="Ideas submitted to the City of La Habra at the Community Outreach Meeting in June, 2019"/>
 
-            <ImageContainer src="prop-68-ideas-text.jpg" caption="The soccer-biased ideas that were actually submitted to the State of California by the City of La Habra"/>
+            <ImageContainer src="prop-68-ideas-text.jpg" caption="The soccer-biased ideas that were actually submitted in the grant application to the State of California by the City of La Habra"/>
           </li>
 
           <li>
