@@ -126,6 +126,9 @@ export default () => (
             grant money is awarded, Osornio Park could get improvements geared towards the community. 
             <strong> But the La Habra Pumas also had a representative at this meeting, showing that if the community remains
             silent, youth sports will continue to control how our local parks are utilized and developed, and who gets to access them</strong>
+            <ImageContainer src="osornio-improvements-final.jpg" caption="Ideas submitted to the City of La Habra at the Community Outreach Meeting in June, 2019"/>
+
+            <ImageContainer src="prop-68-ideas-text.jpg" caption="The soccer-biased ideas that were actually submitted to the State of California by the City of La Habra"/>
           </li>
 
           <li>
@@ -175,9 +178,7 @@ export default () => (
                 When the Pumas secured a State Parks grant for improvements to Osornio Park, <strong>they made all of the improvements for the purposes of
                 soccer, but removed an exercise trail residents used to use, and started locking the park to keep other teams out. There was no effort spent on making the park
                 better for the community, and no effort made to include residents in any of their plans</strong>
-
                 {/* drone shots */}
-
               </li>
             </ul>
           </li>
@@ -190,6 +191,10 @@ export default () => (
             
             {/** Cite? */}
           </li>
+          
+          {/* <li>
+            The Pumas have an adult competetive team that plays at Osornio Park
+          </li> */}
 
 {/* <li>Please contact the City if you observe anytime an
 unorganized sports group appears to be using a facility governed by the policy for anything other
