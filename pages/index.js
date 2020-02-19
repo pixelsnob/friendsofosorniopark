@@ -184,7 +184,7 @@ export default () => (
                 teams have been denied permits to play at Osornio Park because they had adult teams</strong>
               </li>
               <li>
-                The Pumas had a competitive adult team called the "Morningstar Pumas"<FootnoteLink name="morninstar-pumas"/>, <strong>reportedly made up of members
+                The Pumas had a competitive adult team called the "Morningstar Pumas"<FootnoteLink name="morningstar-pumas"/>, <strong>reportedly made up of members
                 of <a href="https://morningstarcc.org/" target="_blank">Morninstar Church</a> in neighboring City of Whittier</strong>
               </li>
             </ul>
