@@ -180,12 +180,12 @@ export default () => (
                 {/* drone shots */}
               </li>
               <li>
-                The Pumas have an adult organization that uses Osornio Park, even though <strong>the sports affiliate program is supposed to be for youth sports, and other
+                The Pumas have an adult organization that uses Osornio Park<FootnoteLink name="pumas-adult-team"/>, even though <strong>the sports affiliate program is supposed to be for youth sports, and other
                 teams have been denied permits to play at Osornio Park because they had adult teams</strong>
               </li>
               <li>
                 The Pumas had a competitive adult team called the "Morningstar Pumas"<FootnoteLink name="morningstar-pumas"/>, <strong>reportedly made up of members
-                of <a href="https://morningstarcc.org/" target="_blank">Morninstar Church</a> in neighboring City of Whittier</strong>
+                of <a href="https://morningstarcc.org/" target="_blank">Morningstar Church</a> in neighboring City of Whittier</strong>
               </li>
             </ul>
           </li>
@@ -268,8 +268,11 @@ than general public use. </li> */}
             <a href="https://www.lahabracity.com/DocumentCenter/View/9515/Vista-Grande-Park-Att-3---Project-Plans" target="_blank">Vista Grande Public Plans</a>, an attachment
             to the <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">Planning Commission Agenda Report</a>, August 1, 2019
           </li>
+          <li id="pumas-adult-team">
+            <a href="https://www.socalpremier.org/page/show/5338552-pumas-la-habra" target="_blank">So Cal Premier Adult Soccer League</a>, Puma's Men's Team 2020 Schedule
+          </li>
           <li id="morningstar-pumas">
-            <a href="http://elements.demosphere.com/72238/teams/86549114/72019703-86549156/TEAM.html" target="_blank">So Cal Premier Adult Soccer League</a>
+            <a href="http://elements.demosphere.com/72238/teams/86549114/72019703-86549156/TEAM.html" target="_blank">So Cal Premier Adult Soccer League</a>, "Morningstar Pumas" 2016-2017 Schedule
           </li>
         </ol>
       </article>
