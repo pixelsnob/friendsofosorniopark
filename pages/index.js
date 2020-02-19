@@ -67,6 +67,15 @@ export default () => (
             
           </li>
           <li>
+            Some neighbors are reporting that <strong>the portable lights that are brought in by the City for games and practices are sometimes left on
+            until after 11 at night, and that they have had to go and turn them off themselves</strong>, even though the hours of operation for the park
+            are "...Monday through Friday 8:00 a.m. to dusk, Saturday and Sundays 9:00 a.m. to dusk."
+            <FootnoteLink name="sports-affiliate-policy-page-27"/>
+
+            <ImageContainer src="IMG_20191212_181502.jpg" caption="Night practice by soccer team at Osornio Park, December 12, 2019, with City-provided portable lights, even though the park was supposedly closed for maintenance"/>
+
+          </li>
+          <li>
             According to public records, <strong>one La Habra area soccer team has been applying for a permit to use the field at Osornio Park for several years
             and has been denied every year. These records appear to show that the City has little interest in issuing a permit to any other team besides the Pumas</strong>
             
@@ -79,7 +88,7 @@ export default () => (
             to the Pumas Vice President</strong>. According to a document
             titled <a href="https://www.lahabracity.com/DocumentCenter/View/6192/The-Job-of-the-Community-Services-Commission?bidId=" target="_blank">The Job of the Community Services Commission</a>, "A
             Community Services Commissioner is an individual who can serve the long-range interests of the La Habra community, who is unbound by election promises, political expediency, or narrow
-            interests", <strong className="alarming">but it's hard to see how someone this involved with the only soccer team allowed to play at Osornio Park can make objective and impartial decisions about who else gets to play there</strong>
+            interests", <strong className="alarming">but it's hard to see how someone this involved with the only soccer team allowed to play at Osornio Park can make objective and impartial decisions about Osornio Park</strong>
           </li>
 
           <li>
@@ -91,15 +100,7 @@ export default () => (
           
           
 
-          <li>
-            Some neighbors are reporting that <strong>the portable lights that are brought in by the City for games and practices are sometimes left on
-            until after 11 at night, and that they have had to go and turn them off themselves</strong>, even though the hours of operation for the park
-            are "...Monday through Friday 8:00 a.m. to dusk, Saturday and Sundays 9:00 a.m. to dusk."
-            <FootnoteLink name="sports-affiliate-policy-page-27"/>
-
-            <ImageContainer src="IMG_20191212_181502.jpg" caption="Night practice by soccer team at Osornio Park, December 12, 2019, even though the park was closed for maintenance"/>
-
-          </li>
+          
           <li>
             During a meeting of the City Council on October 1, 2018,
             a resolution was passed allowing "certain City parks to be posted for access by dogs on leash". Osornio Park, as well as nearby La Bonita Park, were excluded,
@@ -123,15 +124,10 @@ export default () => (
             Community Outreach Meetings were held in the summer of 2019 to gather input into how State of California grant funds could be used to improve certain parks,
             including Osornio Park.
             <ImageContainer src="IMG_20190715_114402.jpg" caption='"City of La Habra Community Outreach for New Park Improvements" flyer, June, 2019'/> If
-            grant money is awarded, Osornio Park could get improvements geared towards the community. 
-            <strong className="alarming"> But the La Habra Pumas heavily influenced the process and ultimately decided which improvements and ideas got submitted to the state in
-            the final grant application
-            
-           
-            </strong>
-            <ImageContainer src="osornio-improvements-final.jpg" caption="Ideas submitted to the City of La Habra at the Community Outreach Meeting in June, 2019"/>
+            grant money is awarded, Osornio Park could get improvements geared towards the community. <strong className="alarming">But a dog run idea suggested by multiple residents did not make it into the final grant application</strong>
+            <ImageContainer src="osornio-improvements-final.jpg" caption="Ideas submitted to the City of La Habra at the Community Outreach Meeting in June, 2019 on behalf of the local neighborhood"/>
 
-            {/* <ImageContainer src="prop-68-ideas-text.jpg" caption="The soccer-biased ideas that were actually submitted in the grant application to the State of California by the City of La Habra"/> */}
+            <ImageContainer src="prop-68-ideas-text.jpg" caption="The soccer-biased ideas that were actually submitted in the grant application to the State of California by the City of La Habra. No mention of a dog run, even though it was suggested by multiple residents"/>
           </li>
 
           <li>
@@ -168,7 +164,7 @@ export default () => (
             <ul>
               <li>
                 When there was reportedly an issue about animal waste in the park, instead of working with the community, <strong>the Pumas decided to take matters into their
-                own hands by approaching citizens to tell them that dogs were not allowed at Osornio Park and that the City would ticket them, even though resdidents have been taking their dogs here for
+                own hands by approaching citizens to tell them that dogs were not allowed at Osornio Park and that the City would ticket them, even though residents have been taking their dogs here for
                 years with no problems</strong>
               </li>
               <li>
@@ -182,6 +178,10 @@ export default () => (
                 soccer, but removed an exercise trail residents used to use, and started locking the park to keep other teams out. There was no effort spent on making the park
                 better for the community, and no effort made to include residents in any of their plans</strong>
                 {/* drone shots */}
+              </li>
+              <li>
+                The Pumas have an adult organization that uses Osornio Park, even though <strong>the sports affiliate program is supposed to be for youth sports, and other
+                teams have been denied permits to play at Osornio Park because they had adult teams</strong>
               </li>
             </ul>
           </li>
