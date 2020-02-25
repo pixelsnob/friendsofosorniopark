@@ -4,6 +4,7 @@ body {
   line-height: 1.8  ;
   padding: 30px;
   counter-reset: footnote;
+  background: #f4f4f4;
 }
 a:link, a:visited, a:active, a:hover {
   color: rgb(0, 109, 0);
@@ -44,14 +45,14 @@ ul {
 }
 li {
   margin: 0;
-  /* padding: 0 0 12px 0; */
+  padding: 0 0 12px 0;
 }
 ul ul {
   padding-top: 12px;
 }
-/* ul li:last-of-type {
+ul li:last-of-type {
   padding-bottom: 0;
-} */
+}
 blockquote {
   background-color: #eee;
   margin-left: 20px;

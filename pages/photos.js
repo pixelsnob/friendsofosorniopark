@@ -14,7 +14,7 @@ import Head from '../components/Head';
 export default () => (
   <Layout showBackToTopLink={true}>
     <Head>
-      <meta name="description" content=""/>
+      <meta name="description" content="Various screenshots and photos related to Osornio Park, and the sports teams that play there"/>
     </Head>
     <div className="articles">
       <article>
@@ -24,13 +24,13 @@ export default () => (
             <ImageContainer src="cal-south-screenshot-1.jpg" caption="Screenshot from Cal South Soccer Foundation's Flickr Page showing City Councilmembers, the Pumas V.P., and others at the park re-dedication in 2012"/>
           </li>
           <li>
-            <ImageContainer src="NO-DOGS-ALLOWED.jpg" caption={`"NO DOGS ALLOWED" shouted in all-caps in this description of Osornio Park, put up by the V.P. of the Pumas`}/>
+            <ImageContainer src="NO-DOGS-ALLOWED.jpg" caption={`"NO DOGS ALLOWED" shouted in all-caps in this description of Osornio Park, put up by the V.P. of the Pumas on the Coast Soccer League website`}/>
           </li>
           <li>
             <ImageContainer src="janes-journal-screenshot.jpg" caption={`Screenshot from "La Habra Jane's Journal", March 7, 2012, saying that the city invested $200,000 in the soccer field`}/>
           </li>
           <li>
-            <ImageContainer src="osornio-park-fb-page.jpg" caption={`"Unofficial" Facebook page that points to coastsoccer.com, but showing a La Habra City phone number`}/>
+            <ImageContainer src="osornio-park-fb-page.jpg" caption={`"Unofficial" Facebook page that points to coastsoccer.com, but for some reason shows a La Habra City phone number`}/>
           </li>
           <li>
             <ImageContainer src="socal-premier-pumas.jpg" caption="So Cal Premier Schedule for the Pumas adult team"/>
@@ -39,10 +39,13 @@ export default () => (
             <ImageContainer src="morningstar-pumas-schedule.jpg" caption={`Schedule for the "Morningstar Pumas", a soccer team made up of members of a church in Whittier, CA, and more "no dogs" propaganda`}/>
           </li>
           <li>
-            <ImageContainer src="osornio-park-city-website.jpg" caption={`Osornio Park description on the City of La Habra's website. No mention that there are only 2 parking spaces.`}/>
+            <ImageContainer src="osornio-park-city-website.jpg" caption={`Osornio Park description on the City of La Habra's website. No mention that there are only 2 parking spaces`}/>
           </li>
           <li>
-            <ImageContainer src="collies-fb.jpg" caption={`Some of the folks that were kicked out of the park include a dog therapy team`}/>
+            <ImageContainer src="collies-fb.jpg" caption={`Some of the folks that were kicked out of the park include a dog therapy team that helps brain-injured children`}/>
+          </li>
+          <li>
+            <ImageContainer src="pumas-la-habra-website.jpg" caption={`The description of the Pumas on the La Habra City website states they have teams in U-9 through U-17 divisions, but makes no mention of their adult teams`}/>
           </li>
         </ul>
       </article>
@@ -62,6 +65,7 @@ export default () => (
         width: 100%;
         display: inline-block;
         margin-bottom: 35px;
+        padding: 0;
         /*border-bottom: 3px solid #ddd;*/
       }
       @media screen and (max-width: 992px) {
