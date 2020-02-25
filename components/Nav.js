@@ -2,11 +2,11 @@
 export default () => (
   <nav className="noprint">
     <ul>
-      <li><a rel="prefetch" href="/petition">Osornio Park Petition</a></li>
+      <li><a rel="prefetch" href="/photos">Photos and Screenshots</a></li>
+
+      <li><a rel="prefetch" href="/petition">Petition</a></li>
       <li><a rel="prefetch" href="/contact">Contact</a></li>
-
       <li><a rel="nofollow" className="loud" target="_blank" href="https://www.change.org/p/return-osornio-park-to-the-community">Sign the Petition on change.org</a></li>
-
     </ul>
     <style jsx>{`
       ul {

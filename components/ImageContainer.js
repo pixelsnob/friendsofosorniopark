@@ -16,12 +16,9 @@ export default (props) => {
         figure {
           margin: 0;
           padding: 0;
-          float: right;
-          clear: both;
-          width: ${props.width || '50vw'};
-          margin: 30px 0 30px 30px;
-          background: #eee;
-          
+          width: 100%;
+          background: #f6f6f6;
+          border: 3px solid #aaa;
         }
         figcaption {
           font-size: 0.9rem;
@@ -29,24 +26,12 @@ export default (props) => {
           margin: 0;
           padding: 5px 10px 15px 10px;
           font-weight: bold;
+          
         }
         img {
           width: 100%;
-          
         }
-        @media screen and (max-width: 768px) {
-          figure {
-            float: none;
-            width: 100%;
-            margin: 20px 0;
-  
-          }
-        }
-        @media screen and (min-width: 1200px) {
-          figure {
-            width: ${props.width || '35vw'};
-          }
-        }
+        
       `}</style>
     </Fragment>
   );

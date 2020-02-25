@@ -44,7 +44,7 @@ ul {
 }
 li {
   margin: 0;
-  padding: 0 0 12px 0;
+  /* padding: 0 0 12px 0; */
 }
 ul ul {
   padding-top: 12px;
@@ -71,7 +71,7 @@ blockquote p:first-child {
     padding-left: 20px;
   }
   li {
-    padding-bottom: 12px;
+    /* padding-bottom: 12px; */
   }
 }
 
@@ -84,7 +84,7 @@ blockquote p:first-child {
     margin: 0;
   }
   li {
-    padding-bottom: 0;
+    /* padding-bottom: 0; */
   }
 }
 
