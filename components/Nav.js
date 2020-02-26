@@ -6,7 +6,7 @@ export default () => (
 
       <li><a rel="prefetch" href="/petition">Petition</a></li>
       <li><a rel="prefetch" href="/contact">Contact</a></li>
-      <li><a rel="nofollow" className="loud" target="_blank" href="https://www.change.org/p/return-osornio-park-to-the-community">Sign the Petition on change.org</a></li>
+      {/* <li><a rel="nofollow" className="loud" target="_blank" href="https://www.change.org/p/return-osornio-park-to-the-community">Sign the Petition on change.org</a></li> */}
     </ul>
     <style jsx>{`
       ul {
