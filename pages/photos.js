@@ -56,7 +56,7 @@ export default () => (
         margin: 0;
         padding: 0;
         width: 100%;
-        column-count: 2;
+        column-count: auto;
         grid-gap: 40px;
       }
       li {
@@ -68,10 +68,16 @@ export default () => (
         padding: 0;
         /*border-bottom: 3px solid #ddd;*/
       }
-      @media screen and (max-width: 992px) {
+      @media screen and (min-width: 992px) {
         ul {
           
-          column-count: auto;
+          column-count: 2;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        ul {
+          
+          column-count: 3;
         }
       }
       

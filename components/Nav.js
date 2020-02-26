@@ -28,6 +28,7 @@ export default () => (
       }
       a:link, a:visited, a:active, a:hover {
         text-decoration: none;
+        text-transform: uppercase;
         white-space: nowrap;
         font-size: 1rem;
       }
