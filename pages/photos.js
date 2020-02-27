@@ -47,6 +47,12 @@ export default () => (
           <li>
             <ImageContainer src="pumas-la-habra-website.jpg" caption={`The description of the Pumas on the La Habra City website states they have teams in U-9 through U-17 divisions, but makes no mention of their adult teams`}/>
           </li>
+          <li>
+            <ImageContainer src="IMG_1326.jpg" caption={`Entire park was closed for several weeks in 2011 to protect the soccer field, even though the soccer field takes up only half the space of the park`}/>
+          </li>
+          <li>
+            <ImageContainer src="IMG_1455.jpg" caption={`Osornio Park locked and closed to the public in December, 2011`}/>
+          </li>
         </ul>
       </article>
     </div>
@@ -56,7 +62,7 @@ export default () => (
         margin: 0;
         padding: 0;
         width: 100%;
-        column-count: auto;
+        column-count: 1;
         grid-gap: 40px;
       }
       li {
@@ -74,12 +80,13 @@ export default () => (
           column-count: 2;
         }
       }
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 1400px) {
         ul {
           
           column-count: 3;
         }
       }
+      
       
     `}</style>
   </Layout>
