@@ -17,19 +17,21 @@ export default (props) => {
           margin: 0;
           padding: 0;
           width: 100%;
-          background: #f6f6f6;
-          border: 3px solid #aaa;
+          box-shadow: 3px 3px 3px #bbb;
+          /*border: 3px solid #aaa;*/
         }
         figcaption {
           font-size: 0.9rem;
           line-height: 1.4;
           margin: 0;
-          padding: 5px 10px 15px 10px;
+          padding: 15px;
           font-weight: bold;
-          
+          /*display: block;*/
+          background-color: #e9e9e9;
         }
         img {
           width: 100%;
+          display: block;
         }
         
       `}</style>

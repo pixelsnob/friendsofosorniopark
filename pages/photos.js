@@ -1,15 +1,7 @@
 
 import Layout from '../components/Layout';
 import ImageContainer from '../components/ImageContainer';
-import FootnoteLink from '../components/FootnoteLink';
 import Head from '../components/Head';
-
-// const summary = 'Friends of Osornio Park is a group of residents with a common goal: to help make Osornio Park a more welcoming place for the entire community. We are not affiliated with the City of La Habra.';
-// const affiliatePolicyLink = 
-//   <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">
-//     City of La Habra Sports Affiliate Policy
-//   </a>
-// ;
 
 export default () => (
   <Layout showBackToTopLink={true}>
@@ -64,6 +56,7 @@ export default () => (
         width: 100%;
         column-count: 1;
         grid-gap: 40px;
+        display: block;
       }
       li {
         list-style-type: none;
@@ -72,22 +65,18 @@ export default () => (
         display: inline-block;
         margin-bottom: 35px;
         padding: 0;
-        /*border-bottom: 3px solid #ddd;*/
+        
       }
       @media screen and (min-width: 992px) {
         ul {
-          
           column-count: 2;
         }
       }
       @media screen and (min-width: 1400px) {
         ul {
-          
           column-count: 3;
         }
       }
-      
-      
     `}</style>
   </Layout>
 );
