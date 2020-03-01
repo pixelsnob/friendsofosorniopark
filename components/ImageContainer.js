@@ -17,7 +17,7 @@ export default (props) => {
           margin: 0;
           padding: 0;
           width: 100%;
-          box-shadow: 3px 3px 3px #bbb;
+          box-shadow: 0px 0px 8px #999;
           /*border: 3px solid #aaa;*/
         }
         figcaption {
