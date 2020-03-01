@@ -3,7 +3,7 @@ export default () => (
   <nav className="noprint">
     <ul>
       <li><a rel="prefetch" href="/photos">Photos and Screenshots</a></li>
-
+      <li><a rel="prefetch" href="/events">Upcoming Events</a></li>
       <li><a rel="prefetch" href="/petition">Petition</a></li>
       <li><a rel="prefetch" href="/contact">Contact</a></li>
     </ul>

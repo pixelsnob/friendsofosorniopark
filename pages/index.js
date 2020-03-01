@@ -44,7 +44,7 @@ const WrappedImageContainer = props => (
 
 export default () => (
   <Layout showBackToTopLink={true}>
-     <Head>
+    <Head>
       <meta name="description" content={summary}/>
     </Head>
     <p>{summary}</p>
