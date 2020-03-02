@@ -2,6 +2,27 @@
 import Layout from '../components/Layout';
 import Head from '../components/Head';
 
+const eventsJson = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "So Cal Premier Soccer: NELA FC vs. Pumas La Habra",
+  "startDate": "2020-03-08T14:00",
+  "endDate": "2020-03-08T16:00",
+  "location": {
+    "@type": "Place",
+    "name": "Osornio Park",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1500 N Hacienda Rd",
+      "addressLocality": "La Habra",
+      "postalCode": "90631",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    }
+  },
+  "description": "So Cal Premier Soccer: NELA FC vs. Pumas La Habra"
+});
+
 export default () => (
   <Layout showBackToTopLink={true}>
     <Head>
@@ -34,6 +55,7 @@ export default () => (
                   NELA FC vs. Pumas La Habra
                 </a>
               </td>
+              <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: eventsJson }}></script>
             </tr>
           </tbody>
         </table>
