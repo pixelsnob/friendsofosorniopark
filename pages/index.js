@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import ImageContainer from '../components/ImageContainer';
 import FootnoteLink from '../components/FootnoteLink';
 import Head from '../components/Head';
+import Link from 'next/link';
 
 const summary = 'Friends of Osornio Park is a group of residents with a common goal: to help make Osornio Park a more welcoming place for the entire community. We are not affiliated with the City of La Habra.';
 const affiliatePolicyLink = 
@@ -243,7 +244,7 @@ export default () => (
           <li>That the City of La Habra take the community into account when making changes and improvements to Osornio Park</li>
         </ol>
 
-        <p><a href="/petition">Read the full petition here</a></p>
+        <p><Link href="/petition"><a>Read the full petition here</a></Link></p>
         <p>
           If you would like to add your hand-written signature to this petition, please email <a href="mailto:petition@friendsofosorniopark.org">petition@friendsofosorniopark.org</a>
         </p>

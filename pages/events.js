@@ -24,7 +24,7 @@ const eventsJson = JSON.stringify({
 });
 
 export default () => (
-  <Layout showBackToTopLink={true}>
+  <Layout showBackToTopLink={false}>
     <Head>
       <meta name="description" content="A schedule of upcoming events at Osornio Park, gathered from multiple sources"/>
     </Head>
@@ -59,7 +59,7 @@ export default () => (
             </tr>
           </tbody>
         </table>
-
+        <br/>
       </article>
     </div>
     <style jsx>{`

@@ -1,11 +1,13 @@
+import Link from 'next/link';
 
 export default () => (
   <nav className="noprint">
     <ul>
-      <li><a rel="prefetch" href="/photos">Photos and Screenshots</a></li>
-      <li><a rel="prefetch" href="/events">Upcoming Events</a></li>
-      <li><a rel="prefetch" href="/petition">Petition</a></li>
-      <li><a rel="prefetch" href="/contact">Contact</a></li>
+      <li><Link href="/photos"><a>Photos and Screenshots</a></Link></li>
+      <li><Link href="/events"><a>Upcoming Events</a></Link></li>
+      <li><Link href="/petition"><a>Petition</a></Link></li>
+      <li><Link href="/contact"><a>Contact</a></Link></li>
+
     </ul>
     <style jsx>{`
       ul {
