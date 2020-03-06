@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const summary = 'Friends of Osornio Park is a group of residents with a common goal: to help make Osornio Park a more welcoming place for the entire community. We are not affiliated with the City of La Habra.';
 const affiliatePolicyLink = 
-  <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">
+  <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank" rel="noopener">
     City of La Habra Sports Affiliate Policy
   </a>
 ;
@@ -25,7 +25,7 @@ export default () => (
         <h2>About Osornio Park</h2>
         <p>
           Osornio Park is a public park about a half mile north of Whittier Blvd on Hacienda Road in
-          La Habra,California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank">(Google Maps)</a>. <FootnoteLink href="hacienda-school">The park
+          La Habra,California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank" rel="noopener">(Google Maps)</a>. <FootnoteLink href="hacienda-school">The park
           used to be the playground and sports field for Hacienda School, until the school closed in 1989.</FootnoteLink>
         </p>
 
@@ -81,16 +81,16 @@ export default () => (
 
           </li> 
           <li>
-            <strong>One of the members of the <a href="https://www.lahabracity.com/341/Community-Services-Commission" target="_blank">La Habra Community Services Commission</a> &mdash;
+            <strong>One of the members of the <a href="https://www.lahabracity.com/341/Community-Services-Commission" target="_blank" rel="noopener">La Habra Community Services Commission</a> &mdash;
             the commission responsible for issuing field permits &mdash; is married
             to the Pumas Vice President</strong>. According to a document
-            titled <a href="https://www.lahabracity.com/DocumentCenter/View/6192/The-Job-of-the-Community-Services-Commission?bidId=" target="_blank">The Job of the Community Services Commission</a>, "A
+            titled <a href="https://www.lahabracity.com/DocumentCenter/View/6192/The-Job-of-the-Community-Services-Commission?bidId=" target="_blank" rel="noopener">The Job of the Community Services Commission</a>, "A
             Community Services Commissioner is an individual who can serve the long-range interests of the La Habra community, who is unbound by election promises, political expediency, or narrow
             interests", <strong className="alarming">but it's hard to see how someone this involved with the only soccer team allowed to play at Osornio Park can make objective and impartial decisions about Osornio Park</strong>
           </li>
 
           <li>
-            <strong>For some reason, the signs that say "No Animals in Park" point to <a href="http://qcode.us/codes/lahabra/view.php?topic=6-6_04-6_04_150&frames=on" title="Link to La Habra Municipal Code 6.04.150" target="_blank">La Habra Municipal Code 6.04.150</a></strong>,
+            <strong>For some reason, the signs that say "No Animals in Park" point to <a href="http://qcode.us/codes/lahabra/view.php?topic=6-6_04-6_04_150&frames=on" title="Link to La Habra Municipal Code 6.04.150" target="_blank" rel="noopener">La Habra Municipal Code 6.04.150</a></strong>,
             which states "Quarantine means isolation of a dog or other animal in an enclosure or other environment so that the dog or animal cannot be subject to other animals
             or unauthorized persons. (Ord. 1627 § 1, 2003)"
             <FloatedImageContainer src={'IMG_20191012_145954.jpg'} caption='"No Animals in Park" sign at Osornio Park'/>
@@ -105,10 +105,10 @@ export default () => (
           </li>
           <li>
             <FootnoteLink href="city-council-minutes-page-5"><strong>Since at least 2014, the City of La Habra has been talking about a dog park at Vista Grande Park.</strong></FootnoteLink> But
-            Vista Grande Park <a href="https://www.google.com/maps/place/Vista+Grande+Park/@33.9228485,-117.9600172,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd2ac57cc350cd:0x60c9cd3b90e08d70!8m2!3d33.9228441!4d-117.9578285" target="_blank">(Google Maps)</a>, <FootnoteLink href="planning-commission-report">a
+            Vista Grande Park <a href="https://www.google.com/maps/place/Vista+Grande+Park/@33.9228485,-117.9600172,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd2ac57cc350cd:0x60c9cd3b90e08d70!8m2!3d33.9228441!4d-117.9578285" target="_blank" rel="noopener">(Google Maps)</a>, <FootnoteLink href="planning-commission-report">a
             former waste landfill</FootnoteLink>, {/*that the City wants to develop into more sports facilities. */}
             is at least 2 miles from Osornio Park and its surrounding residents.
-            And close-by La Bonita Park <a href="https://www.google.com/maps/place/La+Bonita+Park/@33.937307,-117.9640657,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52dde790b0b:0xa224518a83c83eda!8m2!3d33.937307!4d-117.961877" target="_blank">(Google Maps)</a> is
+            And close-by La Bonita Park <a href="https://www.google.com/maps/place/La+Bonita+Park/@33.937307,-117.9640657,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52dde790b0b:0xa224518a83c83eda!8m2!3d33.937307!4d-117.961877" target="_blank" rel="noopener">(Google Maps)</a> is
             also not dog-friendly. <strong>What we need is a dog-friendly option for Osornio Park that does not require a 2-mile drive to another part of La Habra</strong> 
           </li>
           <li>
@@ -128,12 +128,12 @@ export default () => (
 
           <li>
             <strong>The Pumas repeatedly play unauthorized games and hold unauthorized practices, even recently,</strong> on dates when
-            the <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank">City of La Habra Sports Affiliate Policy</a> says
+            the <a href="http://www.lahabracity.com/DocumentCenter/View/9984/City-of-La-Habra-Sport-Affiliate-Policy-PDF" target="_blank" rel="noopener">City of La Habra Sports Affiliate Policy</a> says
             Osornio Park is closed for the season:
             <ul>
               
               <li>
-                There is a <a href="https://www.facebook.com/2298324260383506/videos/550781629096486/" target="_blank">video posted on the Pumas La Habra Facebook page</a> that shows a practice being held, and portable lighting in the background. The video
+                There is a <a href="https://www.facebook.com/2298324260383506/videos/550781629096486/" target="_blank" rel="noopener">video posted on the Pumas La Habra Facebook page</a> that shows a practice being held, and portable lighting in the background. The video
                 is dated December 6, 2019
                 {/* <ImageContainer src="pumas-video-december-6.jpg" caption="Video of practice by the La Habra Pumas at Osornio Park, December 6, 2019, even though the park was closed for maintenance"/> */}
 
@@ -160,7 +160,7 @@ export default () => (
                 years with no problems</strong>
               </li>
               <li>
-                After residents complained to the City, and wrote reviews on Google Maps about the park being taken over, <a target="_blank" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">the V.P. of the Pumas wrote a review of his own</a>,
+                After residents complained to the City, and wrote reviews on Google Maps about the park being taken over, <a target="_blank" rel="noopener" href="https://www.google.com/maps/contrib/106685374889606612264/place/ChIJiUdSICTVwoARPmYimIPFPpU/@33.945514,-117.9679094,16z/data=!4m6!1m5!8m4!1e1!2s106685374889606612264!3m1!1e1?hl=en-US">the V.P. of the Pumas wrote a review of his own</a>,
                 blaming dog owners for not picking up after their dogs, and admitting that <strong>he was the one who pushed for "No Animals in Park" to be
                 installed when the park was converted to a soccer field</strong>
               </li>
@@ -177,7 +177,7 @@ export default () => (
               </li>
               <li>
                 <FootnoteLink href="morningstar-pumas" name="Morningstar pumas footnote">The Pumas had a competitive adult team called the "Morningstar Pumas"</FootnoteLink>, <strong>apparently made up of members
-                of <a href="https://morningstarcc.org/" target="_blank">Morningstar Church</a> in neighboring City of Whittier</strong>
+                of <a href="https://morningstarcc.org/" target="_blank" rel="noopener">Morningstar Church</a> in neighboring City of Whittier</strong>
               </li>
             </ul>
           </li>
@@ -212,48 +212,48 @@ export default () => (
           If you would like to add your hand-written signature to this petition, please email <a href="mailto:petition@friendsofosorniopark.org">petition@friendsofosorniopark.org</a>
         </p>
         
-        <p><strong><a rel="nofollow" href="https://www.change.org/p/return-osornio-park-to-the-community" target="_blank">Or sign the petition on change.org</a></strong></p>
+        <p><strong><a rel="nofollow" href="https://www.change.org/p/return-osornio-park-to-the-community" target="_blank" rel="noopener">Or sign the petition on change.org</a></strong></p>
       </article>
       
       <article>
         <h2>References</h2>
           <ol>
           <li id="hacienda-school">
-            <a target="_blank" href="https://www.cde.ca.gov/schooldirectory/details?cdscode=19647666020143">Hacienda School</a> -
+            <a target="_blank" rel="noopener" href="https://www.cde.ca.gov/schooldirectory/details?cdscode=19647666020143">Hacienda School</a> -
             California School Directory - 
             California Dept. of Education
           </li>
           <li id="la-times-article">
-            <a target="_blank" href="https://www.latimes.com/archives/la-xpm-2001-may-02-me-58275-story.html">"La Habra to Rename Park After Officer"</a> - Los Angeles Times - May 2, 2001
+            <a target="_blank" rel="noopener" href="https://www.latimes.com/archives/la-xpm-2001-may-02-me-58275-story.html">"La Habra to Rename Park After Officer"</a> - Los Angeles Times - May 2, 2001
           </li>
           <li id="opening-ceremony">
-            <a target="_blank" href="https://www.flickr.com/photos/calsouthsoccerfoundation/6646253811/in/photostream/">Osornio Park Opening Ceremony 38</a> - Cal South Youth Soccer Foundation
+            <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/calsouthsoccerfoundation/6646253811/in/photostream/">Osornio Park Opening Ceremony 38</a> - Cal South Youth Soccer Foundation
           </li>
           <li id="park-grants">
-            <a target="_blank" href="https://www.parksforcalifornia.org/grants">Grants</a> - Parks for All Californians 
+            <a target="_blank" rel="noopener" href="https://www.parksforcalifornia.org/grants">Grants</a> - Parks for All Californians 
           </li>
 
           <li id="sports-affiliate-policy-page-27">
             {affiliatePolicyLink}, page 27
           </li>
           <li id="city-council-minutes-page-4">
-            October 1, 2018 <a href="http://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_10012018-1004" target="_blank">La Habra City Council Minutes</a>, page 4
+            October 1, 2018 <a href="http://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_10012018-1004" target="_blank" rel="noopener">La Habra City Council Minutes</a>, page 4
           </li>
           <li id="city-council-minutes-page-5">
-            March 3, 2014 <a href="https://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_03032014-17" target="_blank">La Habra City Council Minutes</a>, page 5
+            March 3, 2014 <a href="https://www.lahabracity.com/AgendaCenter/ViewFile/Minutes/_03032014-17" target="_blank" rel="noopener">La Habra City Council Minutes</a>, page 5
           </li>
           <li id="planning-commission-report">
-            August 1, 2019 <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">La Habra Planning Commission Agenda Report</a>, page 3
+            August 1, 2019 <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank" rel="noopener">La Habra Planning Commission Agenda Report</a>, page 3
           </li>
           <li id="vista-grande-park-plans">
-            <a href="https://www.lahabracity.com/DocumentCenter/View/9515/Vista-Grande-Park-Att-3---Project-Plans" target="_blank">Vista Grande Public Plans</a>, an attachment
-            to the <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank">Planning Commission Agenda Report</a>, August 1, 2019
+            <a href="https://www.lahabracity.com/DocumentCenter/View/9515/Vista-Grande-Park-Att-3---Project-Plans" target="_blank" rel="noopener">Vista Grande Public Plans</a>, an attachment
+            to the <a href="https://www.lahabracity.com/DocumentCenter/View/9519/Vista-Grande-Park---SR" target="_blank" rel="noopener">Planning Commission Agenda Report</a>, August 1, 2019
           </li>
           <li id="pumas-adult-team">
-            <a href="https://www.socalpremier.org/page/show/5338552-pumas-la-habra" target="_blank">So Cal Premier Adult Soccer League</a>, Puma's Men's Team 2020 Schedule
+            <a href="https://www.socalpremier.org/page/show/5338552-pumas-la-habra" target="_blank" rel="noopener">So Cal Premier Adult Soccer League</a>, Puma's Men's Team 2020 Schedule
           </li>
           <li id="morningstar-pumas">
-            <a href="http://elements.demosphere.com/72238/teams/86549114/72019703-86549156/TEAM.html" target="_blank">So Cal Premier Adult Soccer League</a>, "Morningstar Pumas" 2016-2017 Schedule
+            <a href="http://elements.demosphere.com/72238/teams/86549114/72019703-86549156/TEAM.html" target="_blank" rel="noopener">So Cal Premier Adult Soccer League</a>, "Morningstar Pumas" 2016-2017 Schedule
           </li>
         </ol>
       </article>

@@ -51,7 +51,7 @@ export default () => (
               </td>
               <td>2:00pm</td>
               <td>
-                <a href="https://www.socalpremier.org/game/show/28068782?subseason=642569&referrer=5338552" target="_blank">
+                <a href="https://www.socalpremier.org/game/show/28068782?subseason=642569&referrer=5338552" target="_blank" rel="noopener">
                   NELA FC vs. Pumas La Habra
                 </a>
               </td>
