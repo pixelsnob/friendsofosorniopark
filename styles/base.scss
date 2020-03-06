@@ -21,9 +21,9 @@ a.loud {
   color: white;
   padding: 1px 3px;
   text-decoration: none;
-}
-a.loud:hover {
-  background-color: #444;
+  &:hover {
+    background-color: #444;
+  }
 }
 a.footnote {
   font-weight: normal;
@@ -31,19 +31,17 @@ a.footnote {
   color: inherit;
   cursor: default;
   outline: none;
+  &::after {
+    counter-increment: footnote;
+    content: "[" counter(footnote) "]";
+    vertical-align: super; /* 2 */
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 2px;
+    cursor: pointer;
+  }  
 }
-a.footnote::after {
-  counter-increment: footnote;
-  content: "[" counter(footnote) "]";
-  vertical-align: super; /* 2 */
-  font-size: 0.8em;
-  font-weight: bold;
-  margin-left: 2px;
-  cursor: pointer;
-}
-a.footnote span {
-  display: none;
-}
+
 h1 { 
   text-align: center;
   margin: 0;
@@ -73,11 +71,10 @@ blockquote {
   margin-left: 20px;
   padding: 15px;
   font-size: 1rem;
+  p:first-child {
+    margin-top: 0;
+  }
 }
-blockquote p:first-child {
-  margin-top: 0;
-}
-
 .alarming {
   color: rgb(202, 20, 20);
 }
@@ -85,9 +82,6 @@ blockquote p:first-child {
 @media screen and (max-width: 768px) {
   ul {
     padding-left: 20px;
-  }
-  li {
-    /* padding-bottom: 12px; */
   }
 }
 
@@ -98,9 +92,6 @@ blockquote p:first-child {
   h2 {
     font-size: 2.2rem;
     margin: 0;
-  }
-  li {
-    /* padding-bottom: 0; */
   }
 }
 

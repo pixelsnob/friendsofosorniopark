@@ -2,7 +2,7 @@
 import React from 'react';
 import App from 'next/app';
 
-import '../css/base.css';
+import '../styles/base.scss';
 
 export default class MyApp extends App {
 
