@@ -1,4 +1,14 @@
 
+import { Fragment } from 'react';
+
 export default props => {
-  return <sup><a className="footnote" href={"#" + props.href} name={props.name}></a></sup>
+  return (
+    <Fragment>
+      
+      <a className="footnote" href={"#" + props.href}>{props.children}</a>
+      <style jsx>{`
+        
+      `}</style>
+    </Fragment>
+  );
 }

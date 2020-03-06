@@ -6,7 +6,7 @@ body {
   counter-reset: footnote;
   background: #f4f4f4;
 }
-a:link, a:visited, a:active, a:hover {
+a:link, a:visited, a:active, a:hover, a.footnote::after {
   color: rgb(0, 109, 0);
   font-weight: bold;
 }
@@ -25,9 +25,24 @@ a.loud {
 a.loud:hover {
   background-color: #444;
 }
-a.footnote:after {
+a.footnote {
+  font-weight: normal;
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+  outline: none;
+}
+a.footnote::after {
   counter-increment: footnote;
   content: "[" counter(footnote) "]";
+  vertical-align: super; /* 2 */
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-left: 2px;
+  cursor: pointer;
+}
+a.footnote span {
+  display: none;
 }
 h1 { 
   text-align: center;
