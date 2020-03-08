@@ -27,8 +27,7 @@ const Events = ({ events, router }) => (
             </tr>    
           </thead>
           <tbody>
-            {events.map(event => {
-              console.log(process.env.BASE_URL)
+            {Array.isArray(events) && events.length > 0 ? events.map(event => {
               return (
                 <tr key={event._id}>
                   <td>{moment(event.date).format('MMMM D, YYYY')}</td>
@@ -36,7 +35,7 @@ const Events = ({ events, router }) => (
                   <td><a href={event.url} target="_blank" rel="noopener">{event.name}</a></td>
                 </tr>
               );
-            })}
+            }) : <tr><td colSpan="3">No upcoming events</td></tr> }
           </tbody>
         </table>
         <br/>
@@ -61,7 +60,6 @@ Events.getInitialProps = async () => {
     const res = await fetch(`${process.env.BASE_URL}api/events`);
     if (res.ok) {
       const events = await res.json();
-      
       return { events };
     } else {
       throw e;

@@ -31,15 +31,11 @@ const connectToMongo = async () => {
 }
 
 export default handler => async (req, res) => {
+  const { connection, models } = await connectToMongo();
   try {
-    const { connection, models } = await connectToMongo();
-    try {
-      await handler(req, res, connection, models);
-    } catch (e) {
-      connection.close();
-      throw e;
-    }
+    await handler(req, res, connection, models);
   } catch (e) {
+    connection.close();
     res.status(500).json({ error: e.message || 'DB connection failed' });
   }
  
