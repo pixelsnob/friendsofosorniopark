@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import Head from '../components/Head';
 import moment from 'moment';
 import { withRouter } from 'next/router';
+import fetch from 'isomorphic-fetch';
 
 const Events = ({ events, router }) => (
   <Layout showBackToTopLink={false}>
@@ -55,10 +56,12 @@ const Events = ({ events, router }) => (
 );
 
 Events.getInitialProps = async () => {
+  
   try {
     const res = await fetch(`${process.env.BASE_URL}api/events`);
     if (res.ok) {
       const events = await res.json();
+      
       return { events };
     } else {
       throw e;
