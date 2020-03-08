@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next -p 3001",
-    "build": "next build",
+    "build": "NODE_ENV=production next build",
     "start": "forever start -c 'next start -p 3001' .",
     "dev-staging": "NODE_ENV=development next -p 3002",
     "build-staging": "next build",
