@@ -1,29 +1,10 @@
 
 import Layout from '../components/Layout';
 import Head from '../components/Head';
+import moment from 'moment';
+import { withRouter } from 'next/router';
 
-const eventsJson = JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "So Cal Premier Soccer: NELA FC vs. Pumas La Habra",
-  "startDate": "2020-03-08T14:00",
-  "endDate": "2020-03-08T16:00",
-  "location": {
-    "@type": "Place",
-    "name": "Osornio Park",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1500 N Hacienda Rd",
-      "addressLocality": "La Habra",
-      "postalCode": "90631",
-      "addressRegion": "CA",
-      "addressCountry": "US"
-    }
-  },
-  "description": "So Cal Premier Soccer: NELA FC vs. Pumas La Habra"
-});
-
-export default () => (
+const Events = ({ events, router }) => (
   <Layout showBackToTopLink={false}>
     <Head>
       <meta name="description" content="A schedule of upcoming events at Osornio Park, gathered from multiple sources"/>
@@ -45,18 +26,16 @@ export default () => (
             </tr>    
           </thead>
           <tbody>
-            <tr>
-              <td>
-                Sunday, March 8, 2020
-              </td>
-              <td>2:00pm</td>
-              <td>
-                <a href="https://www.socalpremier.org/game/show/28068782?subseason=642569&referrer=5338552" target="_blank" rel="noopener">
-                  NELA FC vs. Pumas La Habra
-                </a>
-              </td>
-              <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: eventsJson }}></script>
-            </tr>
+            {events.map(event => {
+              console.log(process.env.BASE_URL)
+              return (
+                <tr key={event._id}>
+                  <td>{moment(event.date).format('MMMM D, YYYY')}</td>
+                  <td>{moment(event.date).format('h:mma')}</td>
+                  <td><a href={event.url} target="_blank" rel="noopener">{event.name}</a></td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
         <br/>
@@ -75,4 +54,18 @@ export default () => (
   </Layout>
 );
 
+Events.getInitialProps = async () => {
+  try {
+    const res = await fetch(`${process.env.BASE_URL}api/events`);
+    if (res.ok) {
+      const events = await res.json();
+      return { events };
+    } else {
+      throw e;
+    }
+  } catch (e) {
+    return { events: [] };
+  }
+};
 
+export default withRouter(Events);

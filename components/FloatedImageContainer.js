@@ -1,9 +1,8 @@
 
 import ImageContainer from '../components/ImageContainer';
-import { Fragment } from 'react';
 
 export default props => (
-  <Fragment>
+  <>
     <div className="image-container-wrapper">
       <ImageContainer {...props}/>
     </div>
@@ -30,5 +29,5 @@ export default props => (
         }
       }
     `}</style>
-  </Fragment>
+  </>
 );

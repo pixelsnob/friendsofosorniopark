@@ -1,8 +1,6 @@
 
-import { Fragment } from 'react';
-
 export default () => (
-  <Fragment>
+  <>
     <ol>
       <li>
         <strong>That the City of La Habra hold sports teams that use Osornio Park more accountable.</strong> This includes:
@@ -24,5 +22,5 @@ export default () => (
         padding: 0;
       }
     `}</style>
-  </Fragment>
+  </>
 )

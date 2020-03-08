@@ -1,12 +1,10 @@
 
-import { Fragment } from 'react';
-
 export default (props) => {
   
   const image = require(`../images/${props.src}?resize&size=800`);
 
   return (
-    <Fragment>
+    <>
       <figure>
         <img src={image.src} alt={props.caption}/>
         {props.caption ? <figcaption>{props.caption}</figcaption> : ''}
@@ -18,7 +16,6 @@ export default (props) => {
           padding: 0;
           width: 100%;
           box-shadow: 0px 0px 8px #999;
-          /*border: 3px solid #aaa;*/
         }
         figcaption {
           font-size: 0.9rem;
@@ -26,7 +23,6 @@ export default (props) => {
           margin: 0;
           padding: 15px;
           font-weight: bold;
-          /*display: block;*/
           background-color: #e9e9e9;
         }
         img {
@@ -35,6 +31,6 @@ export default (props) => {
         }
         
       `}</style>
-    </Fragment>
+    </>
   );
 }

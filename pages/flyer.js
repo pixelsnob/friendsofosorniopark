@@ -1,9 +1,8 @@
 
-import { Fragment } from 'react';
 import Head from '../components/Head';
 
 export default () => (
-  <Fragment>
+  <>
     <Head>
       <title>Friends of Osornio Park | Printable Flyer</title>
       <meta name="description" content="Printable flyer with information about Friends of Osornio Park."/>
@@ -59,7 +58,7 @@ export default () => (
         font-size: 1.2vh;
       }
     `}</style>
-  </Fragment> 
+  </> 
 );
 
 

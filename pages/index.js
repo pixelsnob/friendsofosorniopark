@@ -12,7 +12,7 @@ const affiliatePolicyLink =
   </a>
 ;
 
-export default () => (
+const Index = () => (
   <Layout showBackToTopLink={true}>
     <Head>
       <meta name="description" content={summary}/>
@@ -25,7 +25,7 @@ export default () => (
         <h2>About Osornio Park</h2>
         <p>
           Osornio Park is a public park about a half mile north of Whittier Blvd on Hacienda Road in
-          La Habra,California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank" rel="noopener">(Google Maps)</a>. <FootnoteLink href="hacienda-school">The park
+          La Habra, California <a href="https://www.google.com/maps/place/Osornio+Park/@33.9455184,-117.9679094,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2d52420524789:0x953ec5839822663e!8m2!3d33.945514!4d-117.9657207" target="_blank" rel="noopener">(Google Maps)</a>. <FootnoteLink href="hacienda-school">The park
           used to be the playground and sports field for Hacienda School, until the school closed in 1989.</FootnoteLink>
         </p>
 
@@ -266,4 +266,10 @@ export default () => (
   </Layout>
 );
 
+// Index.getInitialProps = async () => {
+//   const res = await fetch('http://staging.friendsofosorniopark.org/api/test')
+//   const json = await res.json()
+//   return { data: json }
+// }
 
+export default Index;
